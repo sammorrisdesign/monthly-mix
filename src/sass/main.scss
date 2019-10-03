@@ -1,16 +1,13 @@
-@import 'vendor/mq';
+@import 'helpers/colors';
+@import 'helpers/widths';
 
-@import 'helpers/vars';
-
-@import 'modules/base';
-@import 'modules/button';
-@import 'modules/header';
-@import 'modules/page-fade';
-@import 'modules/logo';
-@import 'modules/video';
-@import 'modules/playlist';
-@import 'modules/playlist-header';
-@import 'modules/controls';
-@import 'modules/tracks';
-@import 'modules/subscribe';
-@import 'modules/archive';
+@import 'partials/base';
+@import 'partials/logo';
+@import 'partials/cover';
+@import 'partials/loading';
+@import 'partials/video';
+@import 'partials/navigation';
+@import 'partials/controls';
+@import 'partials/archive';
+@import 'partials/subscribe';
+@import 'partials/months';

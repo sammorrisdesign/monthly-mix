@@ -1,0 +1,35 @@
+.video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    background-color: #000000;
+}
+
+.video-player {
+    pointer-events: none;
+    position: absolute;
+    left: -9999px;
+    right: -9999px;
+    top: -9999px;
+    bottom: -9999px;
+    margin: auto;
+    height: calc(100% + 340px);
+    width: 177.77777778vh;
+    min-width: 100%;
+    min-height: 56.25vw;
+    opacity: 0;
+    transition: opacity 1s linear, filter 0.5s linear, transform 0.5s linear;
+    transition-delay: 0.5s;
+
+    .is-ready & {
+        opacity: 1;
+        transition-delay: 0s;
+    }
+
+    .is-cover & {
+        filter: grayscale(1) brightness(1.5);
+    }
+}

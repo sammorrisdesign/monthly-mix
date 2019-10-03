@@ -1,36 +1,47 @@
-var watch = require('node-watch');
-var static = require('node-static');
-var assets = require('../scripts/assets.js');
-var fs = require('fs-extra');
+const watch = require('node-watch');
+const browserSync = require('browser-sync').create();
+const browserSyncReuseTab = require('browser-sync-reuse-tab')(browserSync);
+const html = require('./compile/html.js');
+const css = require('./compile/css.js');
+const assets = require('./compile/assets.js');
+const javascript = require('./compile/javascript.js');
 
-watch('src', { recursive: true }, function(evt, name) {
-    var fileExt = name.substring(name.lastIndexOf('.') + 1);
+browserSync.init({
+    server: './.build',
+    port: 8000,
+    open: false
+}, browserSyncReuseTab);
 
-    if (fileExt === 'html' || fileExt === 'svg') {
-        var data = fs.readFileSync('.data/archive.json', 'utf8');
-        assets.html(JSON.parse(data));
-    } else if (fileExt === 'scss') {
-        assets.css();
-    } else if (fileExt === 'js') {
-        assets.js()
-    } else {
-        console.log('non-watchable file extension changed :' + fileExt);
-        assets.images();
+browserSync.watch('./.build/**/*.css', (event, file) => {
+    if (event === 'change') {
+        browserSync.reload('*.css');
     }
 });
 
-var file = new static.Server('./.build', {
-    'cache': 0,
-    'headers': {
-        'Access-Control-Allow-Origin': '*'
+console.log('watching');
+
+watch('src', { recursive: true }, (event, file) => {
+    const fileExt = file.substring(file.lastIndexOf('.') + 1);
+
+    console.log(`A change has been made to ${file}`);
+
+    switch(fileExt) {
+        case 'html':
+            html.init();
+            break;
+
+        case 'sass':
+            css.init();
+            break;
+
+        case 'js':
+            javascript.init();
+            break;
+
+        default:
+            html.init();
+            css.init();
+            javascript.init();
+            assets.init();
     }
-});
-
-console.log('serving embedded atom at http://localhost:' + 8000 + '/index.html')
-console.log('serving the raw atom at http://localhost:' + 8000 + '/main.html');
-
-require('http').createServer(function (request, response) {
-    request.addListener('end', function () {
-        file.serve(request, response);
-    }).resume();
-}).listen(8000);
+})

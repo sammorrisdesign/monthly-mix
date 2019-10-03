@@ -1,0 +1,190 @@
+.cover {
+    position: relative;
+    z-index: 4;
+    width: 100%;
+    height: 100vh;
+}
+
+.cover canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    pointer-events: none;
+}
+
+.cover__content {
+    padding: 2vw;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.3s linear;
+    overflow: hidden;
+    color: $c-white;
+    text-transform: capitalize;
+
+    .is-ready & {
+        opacity: 1;
+    }
+}
+
+.cover__intro {
+    margin: 0;
+    float: right;
+    display: inline-block;
+}
+
+.cover__title {
+    text-align: center;
+    margin: auto;
+}
+
+.cover__letter {
+    display: inline-block;
+    line-height: 0.8;
+    letter-spacing: -0.5vw;
+    padding: 4px;
+
+    .cover--3 &,
+    .cover--4 &,
+    .cover--5 & {
+        font-size: 20vw;
+    }
+
+    .cover--6 & {
+        font-size: 18vw;
+    }
+
+    .cover--7 & {
+        font-size: 16vw;
+    }
+
+    .cover--8 & {
+        font-size: 15vw;
+    }
+
+    .cover--9 & {
+        font-size: 13vw;
+    }
+}
+
+.cover__play {
+    background-color: $c-white;
+    float: left;
+    display: flex;
+    width: fit-content;
+    margin: 0.5vw;
+    cursor: pointer;
+
+    &:hover {
+        .cover__play-label {
+            color: $c-black;
+        }
+    }
+}
+
+.cover__play-icon {
+    padding: 2vw;
+
+    @include mq(tablet) {
+        padding: 1.4vw;
+    }
+
+    svg {
+        width: 4vw;
+        display: block;
+        fill: $c-white;
+
+        @include mq(tablet) {
+            width: 2vw;
+        }
+    }
+}
+
+.cover__play-image {
+    width: 2vw;
+    display: block;
+}
+
+.cover__play-labels {
+    position: relative;
+    width: 34vw;
+
+    @include mq(tablet) {
+        width: 17vw;
+    }
+}
+
+.cover__play-label {
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    line-height: 1;
+    margin: 0;
+    white-space: nowrap;
+
+    @include mq(tablet) {
+        top: 50%;
+        left: 50%;
+    }
+
+    &--paused {
+        opacity: 0;
+    }
+
+    .is-paused & {
+        &--paused {
+            opacity: 1;
+        }
+
+        &--preview {
+            opacity: 0;
+        }
+    }
+}
+
+.cover__featuring {
+    white-space: nowrap;
+    margin: 0;
+    padding: 4px;
+    pointer-events: none;
+    display: inline-block;
+}
+
+.cover__featuring--track {
+    cursor: pointer;
+    pointer-events: all;
+
+    &:hover {
+        color: $c-black;
+    }
+}
+
+.cover__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100vh;
+    mix-blend-mode: multiply;
+}
+
+.cover,
+.cover__bg {
+    transform: translate(0, 100vh);
+    transition: transform 0.3s linear;
+
+    .is-cover & {
+        transform: translate(0, 0);
+    }
+}

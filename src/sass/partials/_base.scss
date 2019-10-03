@@ -1,0 +1,29 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: 'adelle-sans', sans-serif;
+    font-weight: bold;
+    background-color: $c-black;
+    height: 100%;
+    overflow: hidden;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+input,
+select {
+    font-size: 4vw;
+
+    @include mq(tablet) {
+        font-size: 2vw;
+    }
+}
+
+a {
+    text-decoration: none;
+}

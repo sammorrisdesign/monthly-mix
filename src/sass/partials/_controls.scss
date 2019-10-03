@@ -1,0 +1,314 @@
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $c-black;
+}
+
+.controls__play {
+    position: relative;
+    height: 0;
+    padding-top: 14%;
+    width: 14%;
+    transition: background 0.2s linear;
+    cursor: pointer;
+
+    @include mq(tablet) {
+        padding-top: 7%;
+        width: 7%;
+    }
+}
+
+.controls__play-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    margin: auto;
+    flex-shrink: 0;
+    flex-grow: 0;
+    text-align: center;
+    color: $c-white;
+    display: flex;
+    opacity: 0;
+
+    svg {
+        display: block;
+        width: 100%;
+        fill: $c-white;
+    }
+}
+
+.controls__play-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.is-playing .controls__play-icon--pause,
+.is-paused .controls__play-icon--play {
+    opacity: 1;
+}
+
+.controls__track {
+    position: relative;
+    width: 79vw;
+
+    @include mq(tablet) {
+        width: auto;
+        flex-grow: 2;
+    }
+}
+
+.controls__track-display {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $c-white;
+    cursor: pointer;
+
+    &:hover {
+        background-color: hover($c-white);
+    }
+}
+
+.controls__progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0.4vh;
+    background-color: $c-light-grey;
+}
+
+.controls__progression {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.controls__track-image {
+    position: absolute;
+    transform: rotate(90deg);
+    right: 3vw;
+    width: 2vw;
+    transition: transform 0.15s linear;
+
+    @include mq(tablet) {
+        width: 1vw;
+        right: 2vw;
+    }
+
+    .is-expanded & {
+        transform: rotate(-90deg);
+    }
+}
+
+.controls__track-artist,
+.controls__track-title {
+    margin: 0 8vw 0 1.5vw;
+    color: $c-black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    @include mq(tablet) {
+        margin-right: 5vw;
+    }
+}
+
+.controls__select {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+
+    @include mq(desktop) {
+        display: none;
+    }
+}
+
+.controls__tracklist {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: -60vh;
+    background-color: $c-light-grey;
+    list-style: none;
+    margin: 0;
+    padding: 0.5vw 1.5vw;
+    height: 60vh;
+    overflow: scroll;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    transition: 0.15s linear transform;
+    transform: translateY(101%);
+    display: none;
+
+    @include mq(tablet) {
+        display: block;
+    }
+
+    .is-expanded & {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.controls__tracklist-track {
+    position: relative;
+    display: flex;
+    padding: 0.5vw 0;
+    margin: 0;
+    border-bottom: 1px solid $c-white;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $c-white;
+
+        .controls__tracklist-playing {
+            display: block;
+        }
+
+        .controls__tracklist-number {
+            opacity: 0;
+        }
+    }
+
+    &.is-playing {
+        pointer-events: none;
+        cursor: default;
+
+        .controls__tracklist-number {
+            opacity: 0;
+        }
+
+        .controls__tracklist-playing {
+            display: block;
+        }
+    }
+}
+
+.controls__tracklist-playing {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 3%;
+    display: none;
+    height: fit-content;
+
+    svg {
+        display: block;
+    }
+}
+
+.controls__tracklist-number {
+    margin: 0;
+    width: 5%;
+    color: $c-black;
+}
+
+.controls__tracklist-artist {
+    margin: 0 2% 0 0;
+    width: 45%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.controls__tracklist-title {
+    margin: 0;
+    width: 48%;
+    color: $c-black;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.controls__skip {
+    width: 7%;
+    height: 0;
+    position: relative;
+    padding-top: 14%;
+    display: flex;
+    flex-direction: column;
+    background-color: $c-light-grey;
+
+    @include mq(tablet) {
+        width: 3.5%;
+        padding-top: 7%;
+    }
+}
+
+.controls__skip-prev,
+.controls__skip-next {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: $c-light-grey;
+    cursor: pointer;
+
+    svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 30%;
+    }
+
+    &:hover {
+        background-color: hover($c-light-grey);
+    }
+}
+
+.controls__skip-next {
+    top: 50%;
+}
+
+.controls__subscribe,
+.controls__archive {
+    @include mq($until: tablet) {
+        width: 50%;
+        padding: 3vw;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $c-dark-grey;
+    cursor: pointer;
+
+    &:hover {
+        background-color: hover($c-dark-grey);
+    }
+}
+
+.controls__archive {
+    background-color: $c-black;
+
+    &:hover {
+        background-color: hover($c-black);
+    }
+}
+
+.controls__subscribe-label,
+.controls__archive-label {
+    color: $c-white;
+    margin: 0 2vw;
+}

@@ -2,122 +2,166 @@
 <html xmlns="http://www.w3.org/1999/xhtml" style="margin: 0;padding: 0;">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Monthly Mix</title>
+    <title>Monthly Mix for {{ title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style type="text/css">
-        @media only screen and (max-width: 480px){
-            table[id=canspamBar] td{
-                font-size:14px !important;
-            }
-        }
-
-        @media only screen and (max-width: 480px){
-            table[id=canspamBar] td a{
-                display:block !important;
-                margin-top:10px !important;
-            }
-        }
-
-        @media only screen and (max-width: 480px){
-            .image-container img{
-                height:auto !important;
-                max-width:600px !important;
-                width:100% !important;
-            }
-        }
-
-        .image-container img{
-                margin:10px 0 6px;
-        }
-
-        a {
-            color:{{ colourAsHex }};
-            text-decoration:underline;
-        }
-
-        #header{
-            background-color:{{ colourAsHex }};
-        }
-
         html,body{
             margin:0;
             padding:0;
+            background-color: #e7e7e7;
+        }
+
+        p {
+            margin: 0 0 20px 0;
+            font-weight: normal;
+        }
+
+        a:hover {
+            border-bottom: 1px solid #222 !important;
+        }
+
+        .button:hover {
+            border-bottom: none !important;
+        }
+
+        @media screen and (max-width: 480px) {
+            .large-label {
+                font-size: 16px !important;
+            }
+
+            .button__icon {
+                width: 20px !important;
+            }
+
+            p {
+                font-size: 14px !important;
+            }
         }
     </style>
     <link rel="stylesheet" href="https://use.typekit.net/tiu5deg.css">
 </head>
 
-<body bgcolor"{{ colourAsHex }}" style="margin: 0;padding: 0;">
-    <table bgcolor="#ffffff" align="center" cellpadding="0" cellspacing="0" width="100%" style="color: #ffffff; border-collapse: collapse;">
-        <tr width="600" height='10'>
+<body style="margin: 0;padding: 0; background-color: #e7e7e7;">
+    <table align="center" cellpadding="0" cellspacing="0" width="100%" style="color: #ffffff; border-collapse: collapse;">
+        <tr>
+            <td style="padding: 5px;"></td>
+            <td width='600' style='padding: 10px; color: #222; font-family: "adelle-sans", sans-serif; font-size: 12px; text-align: center;'>
+                Having problems reading this? <a href="http://www.monthly.mx/{{ year }}/{{ handlise month }}" target="_blank" style="color: {{ colour month }};text-decoration: none; border-bottom: 1px solid {{ colour month }};">View playlist on Monthly Mix</a>
+            </td>
+            <td style="padding: 5px;"></td>
         </tr>
     </table>
 
-    <table bgcolor="#fff" align="center" cellpadding="0" cellspacing="0" width="100%" style="color: #333; text-align: center; font-size: 14px; font-family: 'Adelle Sans', sans-serif; border-collapse: collapse;">
+    <table align="center" cellspacing="0" width="100%" style="border-spacing: 10px 0; color: #ffffff; text-align: center; font-size: 14px; font-family: 'adelle-sans', sans-serif; border-collapse: collapse;">
+        <tr>
+            <td style="padding: 5px;"></td>
+            <td width='600' style='background-color: {{ colour month }}; padding: 10px;'>
+                <table>
+                    <tr>
+                        <td width="200px" style="max-width: 200px;">
+                            <a href="http://www.monthly.mx" target="_blank" style="color: {{ colour month }};text-decoration: underline;"><img src="http://www.monthly.mx/assets/images/logo.png" alt="" border="0" style="margin: 0; padding: 0;width: 120px; display: block;" class="image"></a>
+                        </td>
+                        <td width="400px" class='large-label' style="font-size: 24px; line-height: .7; vertical-align: bottom; max-width: 400px; text-align: right; font-weight: bold; vertical-align: bottom;">
+                            <a href="http://www.monthly.mx/{{ year }}/{{ handlise month }}" target="_blank" style="color: #ffffff; text-decoration: none;">{{ title }}</a>
+                        </td>
+                    </tr>
+                </table>
+             </td>
+            <td style="padding: 5px;"></td>
+        </tr>
+    </table>
+
+    <table align="center" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
         <tr width="600">
-            <td style="padding: 5px;">
+            <td style="padding: 5px;"></td>
+            <td width="620px" style="max-width: 620px;">
+                <a href="http://www.monthly.mx/{{ year }}/{{ handlise month }}" target="_blank" style="color: {{ colour month }}; text-decoration: none; border-bottom: 1px solid {{ colour month }};">
+                    <img src="http://www.monthly.mx/assets/images/{{ handlise month }}-{{ handlise year }}.jpeg" alt="" border="0" style="margin: 0; padding: 0;width: 100%; display: block;" class="image">
+                </a>
             </td>
-            <td width="200px" style="max-width: 200px;">
-                <a href="http://www.monthly.mx" target="_blank" style="color: {{ colourAsHex }};text-decoration: underline;"><img src="http://www.monthly.mx/assets/images/logo.png" alt="" border="0" style="margin: 0; padding: 0;width: 120px; display: block;" class="image"></a>
-            </td>
-            <td width="400px" style="max-width: 400px; text-align: right; vertical-align: top">
-                <div>Having problems reading this?<a href="http://www.monthly.mx/{{ year }}/{{ month }}" target="_blank" style="color: {{ colourAsHex }};text-decoration: underline; "><br />View playlist on Monthly Mix</a> </div>
-            </td>
-            <td style="padding: 5px;">
-            </td>
+            <td style="padding: 5px;"></td>
         </tr>
     </table>
 
-    <table bgcolor="#ffffff" align="center" cellpadding="0" cellspacing="0" width="100%" style="color: #ffffff; border-collapse: collapse;">
-        <tr width="600" height='10'>
+    <table align='center' cellpadding='0' cellspacing='0' width='100%' style='position: relative; z-index: 2;'>
+        <tr>
+            <td style="padding: 5px;"></td>
+            <td width='600px' style='max-width: 620px; background-color: #ffffff; padding: 10px;'>
+                <table align='center' cellpadding='0' cellspacing='0'>
+                    <tr>
+                        <td style='padding: 14px; background-color: {{ colour month }};'>
+                            <a class='button' href="http://www.monthly.mx/{{ year }}/{{ handlise month }}" target="_blank" style="color: {{ colour month }};text-decoration: none; font-weight: bold; font-family: 'adelle-sans', sans-serif;">
+                                <img class='button__icon' style='width: 32px;' src='http://www.monthly.mx/assets/images/play.png' />
+                            </a>
+                        </td>
+                        <td class='button__label large-label' style='font-size: 24px; color: {{ colour month }}; border: {{ colour month }} 1px solid; border-left: 0; background-color: #ffffff; font-weight: bold; font-family: "adelle-sans", sans-serif;'>
+                            <a class='button' href="http://www.monthly.mx/{{ year }}/{{ handlise month }}" target="_blank" style="color: {{ colour month }};text-decoration: none; padding: 10px; font-weight: bold; font-family: 'adelle-sans', sans-serif;">
+                                Listen to {{ month }}'s playlist
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td style="padding: 5px;"></td>
         </tr>
     </table>
 
-    <table bgcolor="{{ colourAsHex }}" align="center" cellpadding="0" cellspacing="0" width="100%" style="color: #ffffff; border-collapse: collapse;">
-        <tr width="600">
-            <td style="padding: 1px;">
+    <table align="center" cellpadding='0' cellspacing="0" width="100%">
+        <tr>
+            <td style="padding: 5px;"></td>
+            <td width="600px" style="max-width: 600px; background-color: #ffffff; padding: 0px 10px; font-family: 'adelle-sans', sans-serif; color: #222222; border-collapse: collapse;">
+                <p style='border-top: 1px solid #e7e7e7; padding-top: 6px;'>Hey Monthly Mixers
+                <p>It’s a new month which means a new Monthly Mix. Here’s <a href="http://www.monthly.mx/{{ year }}/{{ handlise month }}" style='color: {{ colour month }}; text-decoration: none; border-bottom: 1px solid {{ colour month }};' target="_blank" >the playlist of the best new music from {{ title }}</a>. It features {{#each featured}}{{ artist }}, {{/each}} and much more.
+                {{#if description}}
+                    <p>{{ description }}</p>
+                {{/if}}
+                <p>Anything missing? Let me know by replying to this email with what you’ve been listening to that should be featured.</p>
+                <p style='border-bottom: 1px solid #e7e7e7; padding-bottom: 10px; margin-bottom: 10px;'>Happy new month, <br />Sam Morris</p>
             </td>
-            <td width="600px" style="max-width: 600px;">
-                <a href="http://www.monthly.mx/{{ year }}/{{ month }}" target="_blank" style="color: {{ colourAsHex }};text-decoration: underline;"><img src="https://gallery.mailchimp.com/601418a0f4a6ec9cf7535ad2e/images/1d237c42-3bde-466d-b508-1beb6bea4fff.png" alt="" border="0" style="margin: 0; padding: 0;width: 100%; display: block;" class="image"></a>
-            </td>
-            <td style="padding: 1px;">
-            </td>
+            <td style="padding: 5px;"></td>
         </tr>
     </table>
 
-    <table bgcolor="#ffffff" align="center" cellpadding="10" cellspacing="0" width="100%" style="font-family: 'Adelle Sans', sans-serif; color: #333333; border-collapse: collapse;">
-        <tr width="600">
-            <td style="padding: 5px;">
+    <table align='center' cellpadding='0' cellspacing='0' width='100%' style='position: relative; z-index: 2;'>
+        <tr>
+            <td style="padding: 5px;"></td>
+            <td width='600px' style='max-width: 620px; padding:0 10px 10px; background-color: #ffffff;'>
+                <table align='center' cellpadding='0' cellspacing='0'>
+                    <tr>
+                        <td style='padding: 14px; background-color: {{ colour month }};'>
+                            <a class='button' href="http://www.monthly.mx/{{ year }}/{{ handlise month }}" target="_blank" style="color: {{ colour month }};text-decoration: none; font-weight: bold; font-family: 'adelle-sans', sans-serif;">
+                                <img class='button__icon' style='width: 32px;' src='http://www.monthly.mx/assets/images/play.png' />
+                            </a>
+                        </td>
+                        <td class='button__label large-label' style='font-size: 24px; color: {{ colour month }}; border: {{ colour month }} 1px solid; border-left: 0; background-color: #ffffff; font-weight: bold; font-family: "adelle-sans", sans-serif;'>
+                            <a class='button' href="http://www.monthly.mx/{{ year }}/{{ handlise month }}" target="_blank" style="color: {{ colour month }};text-decoration: none; padding: 10px; font-weight: bold; font-family: 'adelle-sans', sans-serif;">
+                                Listen to {{ month }}'s playlist
+                            </a>
+                        </td>
+                    </tr>
+                </table>
             </td>
-            <td width="600px" style="max-width: 600px; padding: 0;">
-                <div style="margin: 0.4em 0;">
-                    {{{ description }}}
-                </div>
-            </td>
-            <td style="padding: 5px;">
-            </td>
+            <td style="padding: 5px;"></td>
         </tr>
     </table>
 
-    <center>
-        <table border="0" cellpadding="0" cellspacing="0" width="100%" id="canspamBarWrapper" style="background-color:#F1F1F1;">
-            <tr>
-                <td align="center" valign="top" style="padding-top:20px; padding-bottom:20px;">
-                    <table border="0" cellpadding="0" cellspacing="0" id="canspamBar">
-                        <tr>
-                            <td align="center" valign="top" style="color:#606060; font-family:Helvetica, Arial, sans-serif; font-size:11px; line-height:150%; padding-right:20px; padding-bottom:5px; padding-left:20px; text-align:center;">
-                                This email was sent to <a href="mailto:*|EMAIL|*" target="_blank" style="color: #404040 !important;text-decoration: underline;">*|EMAIL|*</a>
-                                <br>
-                                <a href="*|ABOUT_LIST|*" target="_blank" style="color: #404040 !important;text-decoration: underline;"><em>why did I get this?</em></a>    <a href="*|UNSUB|*" style="color: #404040 !important;text-decoration: underline;">unsubscribe from this list</a>    <a href="*|UPDATE_PROFILE|*" style="color: #404040 !important;text-decoration: underline;">update subscription preferences</a>
-                                <br>
-                                <br>
-                                *|REWARDS|*
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </center>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="canspamBarWrapper">
+        <tr>
+            <td align="center" valign="top" style="padding-top:20px; padding-bottom:20px;">
+                <table border="0" cellpadding="0" cellspacing="0" id="canspamBar">
+                    <tr>
+                        <td align="center" valign="top" style="color:#606060; color: #222; font-family: 'adelle-sans', sans-serif; font-size: 12px; line-height:150%; padding-right:20px; padding-bottom:5px; padding-left:20px; text-align:center;">
+                            This email was sent to <a href="mailto:*|EMAIL|*" target="_blank" style="color: #222222 !important;text-decoration: none; border-bottom: 1px solid {{ colour month }};">*|EMAIL|*</a>
+                            <br>
+                            <a href="*|UNSUB|*" style="color: #222222 !important; text-decoration: none; border-bottom: 1px solid {{ colour month }};">Unsubscribe</a> | <a href="*|UPDATE_PROFILE|*" style="color: #222222 !important; text-decoration: none; border-bottom: 1px solid {{ colour month }};">Change email address</a>
+                            <br>
+                            <br>
+                            *|REWARDS|*
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>

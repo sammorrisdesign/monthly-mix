@@ -1,84 +1,64 @@
-var $ = require('../vendor/jquery.js');
-var analytics = require('../modules/analytics');
-var youtube = require('../modules/youtube.js');
+import helpers from './player-helpers';
+import analytics from './analytics';
 
-module.exports =  {
-    init: function() {
-        youtube.init();
-        this.bindings();
-    },
+let isPlaying = false,
+    defaultTitle = document.title;
 
-    bindings: function() {
-        $('.track').click(function(el) {
-            this.play(el.currentTarget);
-        }.bind(this));
+const bindings = () => {
+    let body = document.querySelector('body');
 
-        $('.controls__mute-button').click(function() {
-            this.mute();
-        }.bind(this));
+    body.addEventListener('ready', () => {
+        removeEventListener('ready', body);
 
-        $('.controls__play-button').click(function() {
-            this.play($('.is-playing, .is-paused'));
-        }.bind(this));
+        const event = new Event('play');
+        document.querySelector('body').dispatchEvent(event);
+    });
 
-        // manage play events
-        $('body').one('ready', function() {
-            this.play($('.track')[0]);
-        }.bind(this));
-
-        $('body').on('ended', function() {
-            this.play($('.is-playing').next()[0] ? $('.is-playing').next() : $('.track')[0]);
-        }.bind(this));
-
-        $('body').on('play', function() {
-            this.animateLogo();
-        }.bind(this))
-
-        $('body').on('pause', function() {
-            this.pauseLogo();
-        }.bind(this));
-    },
-
-    play: function(track) {
-        if ($(track).hasClass('is-playing')) {
-            youtube.pauseVideo();
-            $('.controls__play-button').text('Play');
-            $('.is-playing').addClass('is-paused').removeClass('is-playing');
-        } else {
-            $('.is-playing').removeClass('is-playing');
-            $('.is-paused').removeClass('is-paused');
-            $(track).addClass('is-playing');
-            $('.controls__play-button').text('Pause');
-            youtube.play($(track).attr('data-id'));
-            analytics.newTrack(
-                $(track).find('.track__artist').text() + ' - ' + $(track).find('.track__title').text(),
-                $('.playlist-header__seo-hidden').text()
-            );
+    body.addEventListener('keypress', e => {
+        if (e.keyCode === 32) {
+            e.preventDefault();
+            analytics.send('space play');
+            mediator.publish('toggle');
         }
-        this.updateYouTubeButton($(track).attr('data-id'));
-    },
+    });
+}
 
-    animateLogo: function() {
-        $('.logo').addClass('is-animating');
-    },
+const subscriptions = () => {
+    mediator.subscribe('ready', () => {
+        document.querySelector('body').classList.add('is-ready');
+        document.querySelector('body').classList.add('has-loaded');
+    });
 
-    pauseLogo: function() {
-        $('.logo').removeClass('is-animating');
-    },
+    mediator.subscribe('play', id => {
+        isPlaying = true;
+        document.querySelector('body').classList.add('is-playing');
+        document.querySelector('body').classList.remove('is-paused');
+        document.querySelector('body').classList.remove('is-cover');
 
-    mute: function() {
-        if ($('.controls__mute-button').hasClass('is-muted')) {
-            youtube.unmute();
-            $('.controls__mute-button').removeClass('is-muted');
-            $('.controls__mute-button').text('Mute');
+        const currentTrack = document.querySelector('.controls__tracklist-track[data-id="' + id + '"]');
+
+        document.title = currentTrack.querySelector('.controls__tracklist-artist').textContent + ' – ' + currentTrack.querySelector('.controls__tracklist-title').textContent + ' | ' + defaultTitle
+    });
+
+    mediator.subscribe('pause', () => {
+        isPlaying = false;
+        document.querySelector('body').classList.add('is-paused');
+        document.querySelector('body').classList.remove('is-playing');
+        document.querySelector('body').classList.add('is-cover');
+    })
+
+    mediator.subscribe('toggle', () => {
+        if (isPlaying) {
+            mediator.publish('pause');
         } else {
-            youtube.mute();
-            $('.controls__mute-button').addClass('is-muted');
-            $('.controls__mute-button').text('Unmute');
+            mediator.publish('play', helpers.getCurrentId());
         }
-    },
+    })
+}
 
-    updateYouTubeButton: function(id) {
-        $('.playlist__youtube-button').attr('href', 'https://www.youtube.com/watch?v=' + id + '&list=' + $('.playlist').attr('data-id'));
+export default {
+    init: () => {
+        bindings();
+        subscriptions()
     }
-};
+}

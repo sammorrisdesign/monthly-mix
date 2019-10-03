@@ -1,0 +1,46 @@
+$months: (
+    'january': $c-blue,
+    'february': $c-light-blue,
+    'march': $c-aqua,
+    'april': $c-mint,
+    'may': $c-green,
+    'june': $c-yellow,
+    'july': $c-orange,
+    'august': $c-red,
+    'september': $c-pink,
+    'october': $c-light-pink,
+    'november': $c-purple,
+    'december': $c-indigo
+);
+
+
+@each $month, $color in $months {
+    .#{$month} {
+        .controls__tracklist-artist,
+        .controls__track-artist,
+        .cover__play-label {
+            color: $color;
+        }
+
+        .controls__play,
+        .controls__progression,
+        .cover__bg,
+        .cover__play-icon,
+        .subscribe__form-button,
+        &.archive__playlist-filter {
+            background-color: $color;
+        }
+
+        .cover__play:hover .cover__play-icon,
+        .controls__play:hover {
+            background-color: hover($color);
+        }
+
+        .controls__skip-next svg,
+        .controls__skip-prev svg,
+        .controls__track-image svg,
+        .controls__tracklist-playing svg {
+            fill: $color;
+        }
+    }
+}

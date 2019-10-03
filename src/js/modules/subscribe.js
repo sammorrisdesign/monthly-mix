@@ -1,34 +1,28 @@
-var $ = require('../vendor/jquery.js');
+const bindings = () => {
+    const inputEl = document.querySelector('.js-subscribe-input');
+    const defaultCopy = inputEl.value;
 
-var $input = $('.subscribe-form__input'),
-    defaultValue = $input.val();
-
-module.exports =  {
-    init: function() {
-        this.bindings();
-    },
-
-    bindings: function() {
-        $input.focusin(function() {
-            this.focusIn();
-        }.bind(this));
-        $input.focusout(function() {
-            this.focusOut();
-        }.bind(this));
-    },
-
-    focusIn: function() {
-        $input.addClass('is-focused');
-
-        if ($input.val() === defaultValue) {
-            $input.val('');
+    inputEl.addEventListener('focus', () => {
+        if (inputEl.value === defaultCopy) {
+            inputEl.value = '';
         }
-    },
 
-    focusOut: function() {
-        if ($input.val() === '') {
-            $input.removeClass('is-focused');
-            $input.val(defaultValue);
+        inputEl.classList.add('is-focused');
+    });
+
+    inputEl.addEventListener('blur', () => {
+        if (inputEl.value === '') {
+            inputEl.value = defaultCopy;
         }
+
+        if (inputEl.value === defaultCopy) {
+            inputEl.classList.remove('is-focused');
+        }
+    });
+}
+
+export default {
+    init: () => {
+        bindings();
     }
-};
+}

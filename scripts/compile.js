@@ -1,20 +1,11 @@
-// var isDeploy = process.argv.slice(2)[0] == 'true' ? true : false;
-var assets = require('../scripts/assets.js');
-var playlists = require('../scripts/playlists.js');
-var tracks = require('../scripts/tracks.js');
-var archive = require('../scripts/archive.js');
-var fs = require('fs-extra');
+const html = require('./compile/html.js');
+const css = require('./compile/css.js');
+const javascript = require('./compile/javascript.js');
+const assets = require('./compile/assets.js');
 
-fs.removeSync('.build');
+console.log('compiling all assets');
 
-assets.js();
-assets.css();
-assets.images();
-
-playlists.fetch(function(data) {
-    for (var i in data) {
-        tracks.fetch(data[i]);
-    }
-
-    assets.html(archive.compile());
-});
+html.init();
+css.init();
+javascript.init();
+assets.init();

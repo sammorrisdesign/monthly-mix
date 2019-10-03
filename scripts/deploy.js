@@ -5,7 +5,7 @@ var Client = require('ssh2-sftp-client');
 var sftp = new Client();
 var files = [];
 
-var config = require('../config.json');
+var config = require('../config.json').server;
     config.port = '22';
     config.privateKey = fs.readFileSync(home + '/.ssh/id_rsa');
 
