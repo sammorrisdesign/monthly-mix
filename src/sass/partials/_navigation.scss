@@ -7,7 +7,7 @@
     z-index: 3;
     transform: translate(0, 0);
     transition: transform 0.3s linear, max-height 0.15s linear;
-    max-height: 24vw;
+    max-height: 26vw;
 
     @include mq(tablet) {
         max-height: 7vw;
