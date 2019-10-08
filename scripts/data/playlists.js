@@ -48,7 +48,7 @@ module.exports = {
                     year: playlist.snippet.title.split(' ')[1],
                     description: playlist.snippet.description,
                     thumbnail: playlist.snippet.thumbnails.medium.url,
-                    cover: playlist.snippet.thumbnails.maxres ? playlist.snippet.thumbnails.maxres.url : playlist.snippet.thumbnails.standard.url,
+                    cover: this.getCover(playlist.snippet.thumbnails),
                     etag: playlist.etag
                 });
             }.bind(this));
@@ -60,5 +60,19 @@ module.exports = {
                 isFetching = false;
             }
         }.bind(this))
+    },
+
+    getCover: function(thumbnails) {
+        if (thumbnails.maxres) {
+            return thumbnails.maxres.url;
+        } else if (thumbnails.standard) {
+            return thumbnails.standard.url;
+        } else if (thumbnails.default) {
+            return thumbnails.default.url;
+        } else {
+            console.log('no image found');
+            console.log(thumbnails);
+            return '';
+        }
     }
 }
