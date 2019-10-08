@@ -23,9 +23,7 @@ module.exports = {
             fs.writeFileSync(location + '/index.html', template(playlist));
 
             if (i === 0) {
-                console.log(playlist.url);
                 playlist.url = '';
-                console.log(playlist.url);
                 fs.writeFileSync('.build/index.html', template(playlist));
                 fs.writeFileSync('.build/email.html', emailTemplate(playlist));
             }
