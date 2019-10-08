@@ -102,7 +102,7 @@ const subscriptions = () => {
         if (isFirst) {
             // restart video if page loaded ages ago
             const timeSinceLoad = new Date() - loadedTime;
-            if (timeSinceLoad > 10000) {
+            if (timeSinceLoad > 20000) {
                 youTubePlayer.seekTo(0);
             }
 
