@@ -35,10 +35,20 @@
     }
 }
 
+.cover__row {
+    @include mq($until: tablet) {
+        text-align: center;
+        padding: 5px 0;
+    }
+}
+
 .cover__intro {
     margin: 0;
-    float: right;
     display: inline-block;
+
+    @include mq(tablet) {
+        float: right;
+    }
 }
 
 .cover__title {
@@ -50,7 +60,7 @@
     display: inline-block;
     line-height: 0.8;
     letter-spacing: -0.5vw;
-    padding: 4px;
+    padding: 2px;
 
     .cover--3 &,
     .cover--4 &,
