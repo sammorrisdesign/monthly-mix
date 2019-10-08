@@ -16,11 +16,14 @@ module.exports = {
         Object.keys(data).forEach((key, i) => {
             const playlist = data[key];
                 playlist.archive = data;
+                playlist.url = `${playlist.year}/${playlist.month.toLowerCase()}`;
+
             const location = `.build/${playlist.year}/${playlist.month.toLowerCase()}`;
             fs.mkdirsSync(location);
             fs.writeFileSync(location + '/index.html', template(playlist));
 
             if (i === 0) {
+                playlist.url = '';
                 fs.writeFileSync('.build/index.html', template(playlist));
                 fs.writeFileSync('.build/email.html', emailTemplate(playlist));
             }
