@@ -46,7 +46,7 @@
         <tr>
             <td style="padding: 5px;"></td>
             <td width='600' style='padding: 10px; color: #222; font-family: "adelle-sans", sans-serif; font-size: 12px; text-align: center;'>
-                Having problems reading this? <a href="http://www.monthly.mx/{{ year }}/{{ handlise month }}" target="_blank" style="color: {{ colour month }};text-decoration: none; border-bottom: 1px solid {{ colour month }};">View playlist on Monthly Mix</a>
+                Having problems reading this? <a href="http://www.monthly.mx/{{ year }}/{{ handlise month }}?utm_source=newsletter&utm_medium=email&utm_campaign={{ handlise title }}&utm_content=problem-link" target="_blank" style="color: {{ colour month }};text-decoration: none; border-bottom: 1px solid {{ colour month }};">View playlist on Monthly Mix</a>
             </td>
             <td style="padding: 5px;"></td>
         </tr>
@@ -59,10 +59,10 @@
                 <table>
                     <tr>
                         <td width="200px" style="max-width: 200px;">
-                            <a href="http://www.monthly.mx" target="_blank" style="color: {{ colour month }};text-decoration: underline;"><img src="http://www.monthly.mx/assets/images/logo.png" alt="" border="0" style="margin: 0; padding: 0;width: 120px; display: block;" class="image"></a>
+                            <a href="http://www.monthly.mx?utm_source=newsletter&utm_medium=email&utm_campaign={{ handlise title }}&utm_content=logo" target="_blank" style="color: {{ colour month }};text-decoration: underline;"><img src="http://www.monthly.mx/assets/images/logo.png" alt="" border="0" style="margin: 0; padding: 0;width: 120px; display: block;" class="image"></a>
                         </td>
                         <td width="400px" class='large-label' style="font-size: 24px; line-height: .7; vertical-align: bottom; max-width: 400px; text-align: right; font-weight: bold; vertical-align: bottom;">
-                            <a href="http://www.monthly.mx/{{ year }}/{{ handlise month }}" target="_blank" style="color: #ffffff; text-decoration: none;">{{ title }}</a>
+                            <a href="http://www.monthly.mx/{{ year }}/{{ handlise month }}?utm_source=newsletter&utm_medium=email&utm_campaign={{ handlise title }}&utm_content=title" target="_blank" style="color: #ffffff; text-decoration: none;">{{ title }}</a>
                         </td>
                     </tr>
                 </table>
@@ -75,7 +75,7 @@
         <tr width="600">
             <td style="padding: 5px;"></td>
             <td width="620px" style="max-width: 620px;">
-                <a href="http://www.monthly.mx/{{ year }}/{{ handlise month }}" target="_blank" style="color: {{ colour month }}; text-decoration: none; border-bottom: 1px solid {{ colour month }};">
+                <a href="http://www.monthly.mx/{{ year }}/{{ handlise month }}?utm_source=newsletter&utm_medium=email&utm_campaign={{ handlise title }}&utm_content=image" target="_blank" style="color: {{ colour month }}; text-decoration: none; border-bottom: 1px solid {{ colour month }};">
                     <img src="http://www.monthly.mx/assets/images/{{ handlise month }}-{{ handlise year }}.jpeg" alt="" border="0" style="margin: 0; padding: 0;width: 100%; display: block;" class="image">
                 </a>
             </td>
@@ -90,12 +90,12 @@
                 <table align='center' cellpadding='0' cellspacing='0'>
                     <tr>
                         <td style='padding: 14px; background-color: {{ colour month }};'>
-                            <a class='button' href="http://www.monthly.mx/{{ year }}/{{ handlise month }}" target="_blank" style="color: {{ colour month }};text-decoration: none; font-weight: bold; font-family: 'adelle-sans', sans-serif;">
+                            <a class='button' href="http://www.monthly.mx/{{ year }}/{{ handlise month }}?utm_source=newsletter&utm_medium=email&utm_campaign={{ handlise title }}&utm_content=first-button" target="_blank" style="color: {{ colour month }};text-decoration: none; font-weight: bold; font-family: 'adelle-sans', sans-serif;">
                                 <img class='button__icon' style='width: 32px;' src='http://www.monthly.mx/assets/images/play.png' />
                             </a>
                         </td>
                         <td class='button__label large-label' style='font-size: 24px; color: {{ colour month }}; border: {{ colour month }} 1px solid; border-left: 0; background-color: #ffffff; font-weight: bold; font-family: "adelle-sans", sans-serif;'>
-                            <a class='button' href="http://www.monthly.mx/{{ year }}/{{ handlise month }}" target="_blank" style="color: {{ colour month }};text-decoration: none; padding: 10px; font-weight: bold; font-family: 'adelle-sans', sans-serif;">
+                            <a class='button' href="http://www.monthly.mx/{{ year }}/{{ handlise month }}?utm_source=newsletter&utm_medium=email&utm_campaign={{ handlise title }}&utm_content=first-button" target="_blank" style="color: {{ colour month }};text-decoration: none; padding: 10px; font-weight: bold; font-family: 'adelle-sans', sans-serif;">
                                 Listen to {{ month }}'s playlist
                             </a>
                         </td>
@@ -111,7 +111,7 @@
             <td style="padding: 5px;"></td>
             <td width="600px" style="max-width: 600px; background-color: #ffffff; padding: 0px 10px; font-family: 'adelle-sans', sans-serif; color: #222222; border-collapse: collapse;">
                 <p style='border-top: 1px solid #e7e7e7; padding-top: 6px;'>Hey Monthly Mixers
-                <p>It’s a new month which means a new Monthly Mix. Here’s <a href="http://www.monthly.mx/{{ year }}/{{ handlise month }}" style='color: {{ colour month }}; text-decoration: none; border-bottom: 1px solid {{ colour month }};' target="_blank" >the playlist of the best new music from {{ title }}</a>. It features {{#each featured}}{{ artist }}, {{/each}} and much more.
+                <p>It’s a new month which means a new Monthly Mix. Here’s <a href="http://www.monthly.mx/{{ year }}/{{ handlise month }}?utm_source=newsletter&utm_medium=email&utm_campaign={{ handlise title }}&utm_content=inline-link" style='color: {{ colour month }}; text-decoration: none; border-bottom: 1px solid {{ colour month }};' target="_blank" >the playlist of the best new music from {{ title }}</a>. It features {{#each featured}}{{ artist }}, {{/each}} and much more.
                 {{#if description}}
                     <p>{{ description }}</p>
                 {{/if}}
@@ -129,12 +129,12 @@
                 <table align='center' cellpadding='0' cellspacing='0'>
                     <tr>
                         <td style='padding: 14px; background-color: {{ colour month }};'>
-                            <a class='button' href="http://www.monthly.mx/{{ year }}/{{ handlise month }}" target="_blank" style="color: {{ colour month }};text-decoration: none; font-weight: bold; font-family: 'adelle-sans', sans-serif;">
+                            <a class='button' href="http://www.monthly.mx/{{ year }}/{{ handlise month }}?utm_source=newsletter&utm_medium=email&utm_campaign={{ handlise title }}&utm_content=second-button" target="_blank" style="color: {{ colour month }};text-decoration: none; font-weight: bold; font-family: 'adelle-sans', sans-serif;">
                                 <img class='button__icon' style='width: 32px;' src='http://www.monthly.mx/assets/images/play.png' />
                             </a>
                         </td>
                         <td class='button__label large-label' style='font-size: 24px; color: {{ colour month }}; border: {{ colour month }} 1px solid; border-left: 0; background-color: #ffffff; font-weight: bold; font-family: "adelle-sans", sans-serif;'>
-                            <a class='button' href="http://www.monthly.mx/{{ year }}/{{ handlise month }}" target="_blank" style="color: {{ colour month }};text-decoration: none; padding: 10px; font-weight: bold; font-family: 'adelle-sans', sans-serif;">
+                            <a class='button' href="http://www.monthly.mx/{{ year }}/{{ handlise month }}?utm_source=newsletter&utm_medium=email&utm_campaign={{ handlise title }}&utm_content=second-button" target="_blank" style="color: {{ colour month }};text-decoration: none; padding: 10px; font-weight: bold; font-family: 'adelle-sans', sans-serif;">
                                 Listen to {{ month }}'s playlist
                             </a>
                         </td>
