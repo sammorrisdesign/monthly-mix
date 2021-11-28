@@ -67,6 +67,8 @@ module.exports = {
             return thumbnails.maxres.url;
         } else if (thumbnails.standard) {
             return thumbnails.standard.url;
+        } else if (thumbnails.high) {
+            return thumbnails.high.url;
         } else if (thumbnails.default) {
             return thumbnails.default.url;
         } else {
