@@ -7,6 +7,8 @@ module.exports = {
             title = this.removeFrequentPhrases(title);
             title = this.splitTitle(title);
             title = this.dropQuotes(title);
+            title = this.formatFeature(title);
+            title = this.dropBrackets(title);
             title = title.filter(Boolean);
 
         if (title.length == 1) {
@@ -70,6 +72,35 @@ module.exports = {
         }
 
         title[1] = trackTitle;
+
+        return title;
+    },
+
+    dropBrackets: function(title) {
+        if (title[1]) {
+            title[1] = title[1].replace(/ \( \)/g, '').trim();
+        }
+
+        return title;
+    },
+
+    formatFeature: function(title) {
+        const trackTitle = title[1];
+
+        if (trackTitle) {
+            let altFeatureFormats = [
+                'Feat. ',
+                'Feat ',
+                'Ft. ',
+                'Ft ',
+            ];
+
+            altFeatureFormats = altFeatureFormats.map(phrase => `\\(${phrase}\\)|\\[${phrase}\\]|${phrase}`);
+
+            const regEx = new RegExp(altFeatureFormats.join('|'), 'gi');
+
+            title[1] = trackTitle.replace(regEx, 'feat. ').trim();
+        }
 
         return title;
     },
