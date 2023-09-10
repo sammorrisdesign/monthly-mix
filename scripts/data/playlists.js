@@ -7,10 +7,22 @@ let isFetching = true;
 
 module.exports = {
     init: function() {
-        youtube.authenticate({
-            type: 'key',
-            key: keys.youtube
+        // youtube.authenticate({
+        //     type: 'key',
+        //     key: keys.youtube
+        // });
+
+        // temp oauth starts
+        let oauth = youtube.authenticate({
+            type: "oauth",
+            refresh_token: keys.refresh_token,
+            client_id: keys.installed.client_id,
+            client_secret: keys.installed.client_secret,
+            redirect_url: keys.installed.redirect_uris[0],
         });
+
+        oauth.setCredentials(keys.bearer);
+        // temp oauth ends
 
         this.fetchPlaylists();
 
@@ -32,7 +44,7 @@ module.exports = {
     fetchPlaylists: function() {
         youtube.playlists.list({
             part: 'snippet, id',
-            channelId: 'UC-x9dRR5ZSUZE_RIPSYvcuA',
+            channelId: 'UC5FQqBXXSxtwgJ4EIT1Ld1w',
             maxResults: 50,
             pageToken: pageToken
         }, function(err, data) {
