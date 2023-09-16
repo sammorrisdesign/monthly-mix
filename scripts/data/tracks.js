@@ -8,22 +8,10 @@ let fetched = 0;
 
 module.exports = {
     init: function(data) {
-        // youtube.authenticate({
-        //     type: 'key',
-        //     key: keys.youtube
-        // });
-
-        // temp oauth starts
-        let oauth = youtube.authenticate({
-            type: "oauth",
-            refresh_token: keys.refresh_token,
-            client_id: keys.installed.client_id,
-            client_secret: keys.installed.client_secret,
-            redirect_url: keys.installed.redirect_uris[0],
-          });
-
-        oauth.setCredentials(keys.bearer);
-        // temp oauth ends
+        youtube.authenticate({
+            type: 'key',
+            key: keys.youtube
+        });
 
         Object.keys(data).forEach(function(playlist) {
             // Etag comparison only looks at changes to id, title and description. Not tracks within.
