@@ -2,7 +2,7 @@ const keys = require('../../config.json');
 const youtube = require('youtube-api');
 
 module.exports = {
-    getTrackInfo: function(snippet) {
+    getTrackInfo: async function(snippet) {
         let title = snippet.title;
             title = this.removeFrequentPhrases(title);
             title = this.splitTitle(title);
@@ -15,7 +15,7 @@ module.exports = {
             if (title[0].includes("\"")) {
                 title = this.getTitleFromQuotes(title);
             } else {
-                title = this.getTitleFromVideoId(title, snippet.resourceId.videoId);
+                title = await this.getTitleFromVideoId(title, snippet.resourceId.videoId);
             }
         }
 
@@ -118,33 +118,23 @@ module.exports = {
         }
     },
 
-    getTitleFromVideoId: function(title, videoId) {
-        let isFetching = true;
-
+    getTitleFromVideoId: async function(title, videoId) {
         youtube.authenticate({
             type: 'key',
             key: keys.youtube
         });
 
-        youtube.videos.list({
+        const { data } = await youtube.videos.list({
             part: 'snippet',
             id: videoId
-        }, function(err, data) {
-            if (err) {
-                throw err;
-            }
+        });
 
-            if (data.items.length) {
-                title = [
-                    data.items[0].snippet.channelTitle.replace(' - Topic', ''),
-                    this.removeFrequentPhrases(data.items[0].snippet.title)
-                ]
-            }
-
-            isFetching = false;
-        }.bind(this));
-
-        require('deasync').loopWhile(function() { return isFetching });
+        if (data.items.length) {
+            title = [
+                data.items[0].snippet.channelTitle.replace(' - Topic', ''),
+                this.removeFrequentPhrases(data.items[0].snippet.title)
+            ]
+        }
 
         return title;
     }

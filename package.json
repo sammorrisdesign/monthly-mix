@@ -21,7 +21,6 @@
     "browser-sync": "^3.0.2",
     "browser-sync-reuse-tab": "^1.0.3",
     "canvas": "^2.11.2",
-    "deasync": "^0.1.29",
     "fs-extra": "^11.2.0",
     "glob-fs": "^0.1.7",
     "handlebars": "^4.7.8",

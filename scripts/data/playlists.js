@@ -5,16 +5,30 @@ let pageToken = null;
 let playlists = new Array();
 let isFetching = true;
 
+const getCover = thumbnails => {
+    if (thumbnails.maxres) {
+        return thumbnails.maxres.url;
+    } else if (thumbnails.standard) {
+        return thumbnails.standard.url;
+    } else if (thumbnails.high) {
+        return thumbnails.high.url;
+    } else if (thumbnails.default) {
+        return thumbnails.default.url;
+    } else {
+        console.log('no image found');
+        console.log(thumbnails);
+        return '';
+    }
+}
+
 module.exports = {
-    init: function() {
-        youtube.authenticate({
+    init: async function() {
+        await youtube.authenticate({
             type: 'key',
             key: keys.youtube
         });
 
-        this.fetchPlaylists();
-
-        require('deasync').loopWhile(function() { return isFetching; });
+        await this.fetchPlaylists();
 
         playlists.sort((a,b) => {
             return new Date(b.title) - new Date(a.title);
@@ -29,20 +43,16 @@ module.exports = {
         return playlistsObject;
     },
 
-    fetchPlaylists: function() {
-        youtube.playlists.list({
+    fetchPlaylists: async function() {
+        const response = await youtube.playlists.list({
             part: 'snippet, id',
             channelId: 'UC5FQqBXXSxtwgJ4EIT1Ld1w',
             maxResults: 50,
             pageToken: pageToken
-        }, function(err, data) {
-            if (err) {
-                throw err;
-            }
+        });
 
-            data = data.data;
-
-            data.items.forEach(function(playlist) {
+        if (response.data) {
+            response.data.items.forEach(function(playlist) {
                 playlists.push({
                     id: playlist.id,
                     title: playlist.snippet.title,
@@ -50,33 +60,15 @@ module.exports = {
                     year: playlist.snippet.title.split(' ')[1],
                     description: playlist.snippet.description,
                     thumbnail: playlist.snippet.thumbnails.medium.url,
-                    cover: this.getCover(playlist.snippet.thumbnails),
+                    cover: getCover(playlist.snippet.thumbnails),
                     etag: playlist.etag
                 });
-            }.bind(this));
+            });
 
-            if (data.nextPageToken) {
-                pageToken = data.nextPageToken;
-                this.fetchPlaylists();
-            } else {
-                isFetching = false;
+            if (response.data.nextPageToken) {
+                pageToken = response.data.nextPageToken;
+                await this.fetchPlaylists();
             }
-        }.bind(this))
-    },
-
-    getCover: function(thumbnails) {
-        if (thumbnails.maxres) {
-            return thumbnails.maxres.url;
-        } else if (thumbnails.standard) {
-            return thumbnails.standard.url;
-        } else if (thumbnails.high) {
-            return thumbnails.high.url;
-        } else if (thumbnails.default) {
-            return thumbnails.default.url;
-        } else {
-            console.log('no image found');
-            console.log(thumbnails);
-            return '';
         }
     }
 }

@@ -9,7 +9,6 @@ main.min.js
 
 .build
 .images
-data.json
 
 npm-debug.log
 node_modules
