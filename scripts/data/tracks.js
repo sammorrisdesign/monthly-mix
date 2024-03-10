@@ -12,8 +12,7 @@ module.exports = {
         });
 
         for (const playlist of Object.keys(data)) {
-            // Etag comparison only looks at changes to id, title and description. Not tracks within.
-            // PlaylistItems has an Etag, maybe this is what we need
+            // Etag comparison only looks at changes to id, title and description
             if (!oldData[playlist] || data[playlist].etag !== oldData[playlist].etag) {
                 await image.generateFor(data[playlist]);
                 data[playlist].tracks = await this.fetchTracksFromPlaylist(data[playlist]);

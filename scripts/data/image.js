@@ -41,7 +41,7 @@ const generateMainImage = async(playlist, image) => {
     let gradient = [];
     const minValue = 0;
     const maxValue = 250;
-    const from = getRGBColor('#222222');
+    const from = getRGBColor('#111111');
     const to = getRGBColor(colours[playlist.month.toLowerCase()]);
 
     for (var i = minValue; i <= maxValue; i++) {
@@ -86,18 +86,68 @@ const generateMainImage = async(playlist, image) => {
     }
     fs.writeFileSync('./.images/' + playlist.title.toLowerCase().replace(/ /g, '-') + '.jpeg', buffer);
 
-    return buffer;
+    return canvasData;
 }
 
-const generateSpotifyImage = async(playlist, image) => {
+const generateSpotifyImage = async(playlist, baseImage) => {
     console.log('generating spotify image for', playlist.title);
+
+    // setup canvas and draw the baseImage
+    const canvi = canvas.createCanvas(720, 720);
+    const ctx = canvi.getContext('2d');
+    ctx.putImageData(baseImage, -280, 0);
+
+    // draw the logo 
+    const logoBase64 = fs.readFileSync("./src/images/logo.png", "base64");
+    const logo = new canvas.Image();
+    logo.src = `data:image/png;base64,${logoBase64}`;
+    ctx.drawImage(logo, 20, 20, 200, 146); // magic numbers are half size of logo in assets folder
+
+    // add name of playlist
+    canvas.registerFont("./src/fonts/AdelleSans-Bold.ttf", { family: "Adelle" });
+    ctx.font = '100px "Adelle"';
+    ctx.fillStyle = "#FFFFFF";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+
+    let x = 55;
+
+    // draw month
+    for (const letter of playlist.month.toUpperCase()) {
+        ctx.save();
+        ctx.translate(x, 565);
+        const randomAngle = (Math.random() * 35) - 17.5;
+        ctx.rotate(randomAngle * Math.PI / 180);
+        ctx.fillText(letter, 0, 0);
+        ctx.restore();
+        x += ctx.measureText(letter).width + 10;
+    }
+
+    x = 55;
+
+    // draw year
+    for (const number of playlist.year) {
+        ctx.save();
+        ctx.translate(x, 665);
+        const randomAngle = (Math.random() * 35) - 17.5;
+        ctx.rotate(randomAngle * Math.PI / 180);
+        ctx.fillText(number, 0, 0);
+        ctx.restore();
+        x += ctx.measureText(number).width + 10;
+    }
+
+    // write image
+    const buffer = canvi.toBuffer('image/jpeg', { quality: 0.8 });
+    fs.writeFileSync('./.images/' + playlist.title.toLowerCase().replace(/ /g, '-') + '--spotify.jpeg', buffer);
 }
 
 module.exports = {
     generateFor: async(playlist) => {
-        // let isGeneratingImage = true;
         const image = await canvas.loadImage(playlist.cover);
+
+        console.log(image);
+
         const mainImage = await generateMainImage(playlist, image);
-        await generateSpotifyImage(playlist, image);
+        await generateSpotifyImage(playlist, mainImage);
     }
 }
