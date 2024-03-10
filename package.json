@@ -1,6 +1,6 @@
 {
   "name": "monthly-mix",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/sammorrisdesign/monthly-mix.git"
@@ -16,28 +16,26 @@
     "deploy": "rm -rf .build && node scripts/compile.js && node scripts/compress.js && node scripts/deploy.js"
   },
   "homepage": "https://github.com/sammorrisdesign/monthly-mix",
-  "devDependencies": {
-    "babel-minify": "^0.5.1",
-    "browser-sync": "^2.26.7",
+  "dependencies": {
+    "babel-minify": "^0.5.2",
+    "browser-sync": "^3.0.2",
     "browser-sync-reuse-tab": "^1.0.3",
-    "canvas": "^2.6.0",
-    "deasync": "^0.1.15",
-    "fs-extra": "^8.1.0",
+    "canvas": "^2.11.2",
+    "deasync": "^0.1.29",
+    "fs-extra": "^11.2.0",
     "glob-fs": "^0.1.7",
-    "handlebars": "^4.1.2",
-    "matter-js": "^0.14.2",
+    "handlebars": "^4.7.8",
+    "matter-js": "^0.19.0",
     "mediator-js": "^0.11.0",
-    "node-sass": "^4.12.0",
-    "node-watch": "^0.6.3",
-    "pathseg": "^1.2.0",
-    "poly-decomp": "^0.3.0",
-    "rollup": "^1.19.4",
-    "rollup-plugin-commonjs": "^10.0.2",
+    "node-sass": "^9.0.0",
+    "node-watch": "^0.7.4",
+    "pathseg": "^1.2.1",
+    "rollup": "^4.12.1",
+    "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "sass-mq": "^5.0.1",
-    "ssh2-sftp-client": "^4.2.0",
-    "uglifycss": "0.0.29",
-    "youtube-api": "^2.0.10"
-  },
-  "dependencies": {}
+    "ssh2-sftp-client": "^10.0.3",
+    "uglifycss": "^0.0.29",
+    "youtube-api": "^3.0.1"
+  }
 }

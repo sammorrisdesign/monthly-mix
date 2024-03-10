@@ -27,7 +27,7 @@ const renderCover = () => {
     // create engine and renderer
     engine = Engine.create();
     engine.enableSleeping = true;
-    engine.world.gravity.scale = 0;
+    engine.gravity.scale = 0;
 
     if (isDebug) {
         const Render = Matter.Render;
@@ -85,7 +85,7 @@ const renderCover = () => {
     mediator.subscribe('ready', () => {
         bindings();
         subscriptions();
-        Engine.run(engine);
+        Matter.Runner.run(engine);
         window.requestAnimationFrame(update);
     });
 }

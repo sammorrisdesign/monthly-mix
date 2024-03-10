@@ -14,6 +14,6 @@ let data = playlists.init();
     data = corrections.init(data);
     data = featured.init(data);
 
-fs.writeFileSync('data.json', JSON.stringify(data));
+fs.writeFileSync('data.json', JSON.stringify(data, null, 2));
 
 console.log('Data updated!');

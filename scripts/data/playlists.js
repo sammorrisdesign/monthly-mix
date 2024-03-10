@@ -40,6 +40,8 @@ module.exports = {
                 throw err;
             }
 
+            data = data.data;
+
             data.items.forEach(function(playlist) {
                 playlists.push({
                     id: playlist.id,

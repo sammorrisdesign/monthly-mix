@@ -2,7 +2,7 @@
 The latest music from the past month delivered to your inbox
 
 ## Requirements
-- Node 10.16.0 or greater
+- Node 18.16.0 or greater
 - A YouTube Data API key
 
 Get additional dependencies with `npm install`
