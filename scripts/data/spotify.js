@@ -1,14 +1,34 @@
+const fs = require('fs-extra');
 const keys = require('../../config.json');
 
-let url = 'https://api.spotify.com/v1/me/playlists?limit=20&offset=0';
+let url = 'https://api.spotify.com/v1/users/nidzumi/playlists?limit=20&offset=0';
 let playlists = new Array;
+let access_token;
+
+const getAccessToken = async() => {
+    const response = await fetch('https://accounts.spotify.com/api/token', {
+        method: 'POST',
+        headers: {
+            'Authorization': 'Basic ' + (new Buffer.from(keys.spotify.client_id + ':' + keys.spotify.client_secret).toString('base64')),
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: new URLSearchParams({
+            grant_type: 'client_credentials'
+        })
+    });
+
+    const data = await response.json();
+
+    console.log(`🔐 Received Spotify Access Token`);
+    access_token = data.access_token;
+}
 
 const fetchABatchOfPlaylists = async() => {
     console.log(`🛜 Fetching playlists from Spotify`);
     const response = await fetch(url, {
         method: 'get',
         headers: {
-            Authorization: `Bearer ${keys.spotify}`
+            Authorization: `Bearer ${access_token}`
         }
     });
 
@@ -24,8 +44,11 @@ const fetchABatchOfPlaylists = async() => {
 
 module.exports = {
     getPlaylists: async function() {
+        await getAccessToken();
         // fetch all playlists
         await fetchABatchOfPlaylists();
+
+        fs.writeJSONSync('./spotify.json', playlists);
 
         // filter playlists to ones I've made
         playlists = playlists.filter(playlist => playlist.owner.id == 'nidzumi');
