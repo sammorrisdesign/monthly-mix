@@ -280,9 +280,10 @@
 }
 
 .controls__subscribe,
-.controls__archive {
+.controls__archive,
+.controls__spotify {
     @include mq($until: tablet) {
-        width: 50%;
+        width: 33%;
         padding: 3vw;
         box-sizing: border-box;
         text-align: center;
@@ -305,6 +306,20 @@
     &:hover {
         background-color: hover($c-black);
     }
+}
+
+.controls__spotify {
+    background-color: darken($c-black, 3%);
+
+    &:hover {
+      background-color: hover(darken($c-black, 3%));
+  }
+}
+
+.controls__spotify-extra {
+  @include mq($until: tablet) {
+    display: none;
+  }
 }
 
 .controls__subscribe-label,
