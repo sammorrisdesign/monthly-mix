@@ -1,4 +1,193 @@
 {
+  "April 2024": {
+    "id": "PLn_YXwwHtJ610XbwGsrdRe5XLXyu7ZKJa",
+    "title": "April 2024",
+    "month": "April",
+    "year": "2024",
+    "description": "For the first time ever Monthly Mix playlists will now be available on Spotify! In addition to April 2024's playlist, the entire nearly 10 year archive is on Spotify too!",
+    "thumbnail": "https://i.ytimg.com/vi/yC0r8RCYyvY/mqdefault.jpg",
+    "cover": "https://i.ytimg.com/vi/yC0r8RCYyvY/maxresdefault.jpg",
+    "etag": "-wlc44qHS3uZoVxs_WE3LjqJcfw",
+    "tracks": [
+      {
+        "artist": "Caribou",
+        "title": "Honey",
+        "id": "yC0r8RCYyvY"
+      },
+      {
+        "artist": "Jamie xx",
+        "title": "Baddy On The Floor (feat. Honey Dijon)",
+        "id": "xeKSdJqFM6o"
+      },
+      {
+        "artist": "Overmono & The Streets",
+        "title": "Turn The Page",
+        "id": "XiAr1wk68WQ"
+      },
+      {
+        "artist": "Justice",
+        "title": "Neverender (feat. Tame Impala)",
+        "id": "47YNsf-7Y7c"
+      },
+      {
+        "artist": "Nia Archives",
+        "title": "F.A.M.I.L.Y",
+        "id": "YalCKYjrQDY"
+      },
+      {
+        "artist": "Museum Of Love",
+        "title": "Look Of Disgust",
+        "id": "DUkIaxCfoj4"
+      },
+      {
+        "artist": "Joe Goddard",
+        "title": "New World (Flow)",
+        "id": "p-9mnBWvh2k"
+      },
+      {
+        "artist": "NxWorries",
+        "title": "86Sentra",
+        "id": "NK2AYc9UVCU"
+      },
+      {
+        "artist": "Previous Industries",
+        "title": "Pliers",
+        "id": "blmGMjkxJVk"
+      },
+      {
+        "artist": "Serengeti",
+        "title": "turkies",
+        "id": "lpuDHQDW2QI"
+      },
+      {
+        "artist": "Cavalier",
+        "title": "Custard Spoon",
+        "id": "hTQ1ahccO3M"
+      },
+      {
+        "artist": "Jadasea",
+        "title": "Not Much 2 Say",
+        "id": "OE7aT5nUJM4"
+      },
+      {
+        "artist": "Your Old Droog",
+        "title": "DBZ (feat. Method Man, Denzel Curry, and Madlib",
+        "id": "bXw4V_B6WXM"
+      },
+      {
+        "artist": "Saba & No ID",
+        "title": "head.rap (feat. Madison McFerrin, Ogi, and Jordan Ward)",
+        "id": "zVIPD_PUBbo"
+      },
+      {
+        "artist": "Nas & DJ Premier",
+        "title": "Define My Name",
+        "id": "WPF1X58IOFA"
+      },
+      {
+        "artist": "RiTchie",
+        "title": "WYTD?!?!",
+        "id": "B0MAysqzPHI"
+      },
+      {
+        "artist": "Yaya Bey",
+        "title": "Me and All My N***as",
+        "id": "N8na_kr9CQk"
+      },
+      {
+        "artist": "Fontaines D.C.",
+        "title": "Starburster",
+        "id": "KHocVRUlvkk"
+      },
+      {
+        "artist": "Cola",
+        "title": "Pallor Tricks",
+        "id": "sOYGiluzaUQ"
+      },
+      {
+        "artist": "KEG",
+        "title": "Michael Phelps",
+        "id": "V3V1M7dbwWk"
+      },
+      {
+        "artist": "Wild Yaks",
+        "title": "See That Girl",
+        "id": "FWTVBQbR3gw"
+      },
+      {
+        "artist": "Pardoner",
+        "title": "Future of Music",
+        "id": "X9zhqhJpZiU"
+      },
+      {
+        "artist": "Vessel",
+        "title": "Whatcha Doin",
+        "id": "b_bCWdjiXyk"
+      },
+      {
+        "artist": "Dog Date",
+        "title": "I Love That Story",
+        "id": "t9gya_l2CQo"
+      },
+      {
+        "artist": "Goat Girl",
+        "title": "Motorway",
+        "id": "1fZ-l1Ri1ik"
+      },
+      {
+        "artist": "Dana Gavanski",
+        "title": "Ribbon",
+        "id": "NF3cVcutZVQ"
+      },
+      {
+        "artist": "GUPPY",
+        "title": "IDK",
+        "id": "VIoKXuA4JiY"
+      },
+      {
+        "artist": "A. Savage",
+        "title": "I Can't Shake The Stranger Out Of You",
+        "id": "90EcA2S_2s8"
+      },
+      {
+        "artist": "Jane Weaver",
+        "title": "Happiness in Proximity",
+        "id": "gL2_3NOrMkg"
+      },
+      {
+        "artist": "Baby Rose",
+        "title": "Caroline (feat. Mereba and BADBADNOTGOOD)",
+        "id": "9OVGhIt-UCg"
+      },
+      {
+        "artist": "Reyna Tropical",
+        "title": "Lo Siento",
+        "id": "FNFUE8ycgJQ"
+      }
+    ],
+    "featured": [
+      {
+        "artist": "Caribou",
+        "id": "yC0r8RCYyvY"
+      },
+      {
+        "artist": "Jamie xx",
+        "id": "xeKSdJqFM6o"
+      },
+      {
+        "artist": "Overmono & The Streets",
+        "id": "XiAr1wk68WQ"
+      },
+      {
+        "artist": "Justice",
+        "id": "47YNsf-7Y7c"
+      },
+      {
+        "artist": "Nia Archives",
+        "id": "YalCKYjrQDY"
+      }
+    ]
+  },
   "March 2024": {
     "id": "PLn_YXwwHtJ62SomC4tCRQF2uUCIsXnBhL",
     "title": "March 2024",
