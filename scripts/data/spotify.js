@@ -48,7 +48,7 @@ module.exports = {
         // fetch all playlists
         await fetchABatchOfPlaylists();
 
-        fs.writeJSONSync('./data/spotify.json', playlists);
+        fs.writeJSONSync('./scripts/data/spotify.json', playlists);
 
         // filter playlists to ones I've made
         playlists = playlists.filter(playlist => playlist.owner.id == 'nidzumi');

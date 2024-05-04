@@ -4,7 +4,6 @@ const spotify = require('./spotify');
 
 let pageToken = null;
 let playlists = new Array();
-let isFetching = true;
 
 const getCover = thumbnails => {
     if (thumbnails.maxres) {
