@@ -81,10 +81,7 @@ const generateMainImage = async(playlist, image) => {
 
     // write image
     const buffer = canvi.toBuffer('image/jpeg', { quality: 0.8 });
-    if (!fs.existsSync('./.images/')) {
-        fs.mkdirsSync('./.images');
-    }
-    fs.writeFileSync('./.images/' + playlist.title.toLowerCase().replace(/ /g, '-') + '.jpeg', buffer);
+    fs.writeFileSync('./images/' + playlist.title.toLowerCase().replace(/ /g, '-') + '.jpeg', buffer);
 
     return canvasData;
 }
@@ -138,7 +135,7 @@ const generateSpotifyImage = async(playlist, baseImage) => {
 
     // write image
     const buffer = canvi.toBuffer('image/jpeg', { quality: 0.8 });
-    fs.writeFileSync('./.images/' + playlist.title.toLowerCase().replace(/ /g, '-') + '--spotify.jpeg', buffer);
+    fs.writeFileSync('./images/' + playlist.title.toLowerCase().replace(/ /g, '-') + '--spotify.jpeg', buffer);
 }
 
 module.exports = {
