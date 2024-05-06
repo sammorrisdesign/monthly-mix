@@ -44,7 +44,11 @@ module.exports = {
         const spotifyIDs = await spotify.getPlaylists();
 
         playlists.forEach(playlist => {
-          playlist.spotify = spotifyIDs[playlist.title];
+            if (spotifyIDs[playlist.title]) {
+                playlist.spotify = spotifyIDs[playlist.title];
+            } else {
+                console.log(`😢 Playlist for ${playlist.title} missing`)
+            }
         });
 
         return playlistsObject;
