@@ -13,7 +13,7 @@
     "start": "node scripts/compile.js && node scripts/local.js",
     "data": "node scripts/data.js",
     "fresh-data": "rm data.json && node scripts/data.js",
-    "deploy": "rm -rf .build && node scripts/compile.js && node scripts/compress.js && node scripts/deploy.js"
+    "deploy": "rm -rf .build && node scripts/compile.js && node scripts/compress.js"
   },
   "homepage": "https://github.com/sammorrisdesign/monthly-mix",
   "dependencies": {
