@@ -1,4 +1,129 @@
 {
+  "July 2024": {
+    "id": "PLn_YXwwHtJ63G6uW3ap2Kr-xvN9R3X6oT",
+    "title": "July 2024",
+    "month": "July",
+    "year": "2024",
+    "description": "",
+    "thumbnail": "https://i.ytimg.com/vi/SFWsQMos90w/mqdefault.jpg",
+    "cover": "https://i.ytimg.com/vi/SFWsQMos90w/maxresdefault.jpg",
+    "etag": "S8VMquACpk9ivsa9hW446TgqS7o",
+    "spotify": "4RbrFiMCt0TkzNXfo2a3gE",
+    "tracks": [
+      {
+        "artist": "Robber Robber",
+        "title": "How We Ball",
+        "id": "SFWsQMos90w"
+      },
+      {
+        "artist": "Font",
+        "title": "Sentence I",
+        "id": "Xtm3XjcqVhQ"
+      },
+      {
+        "artist": "DVTR",
+        "title": "LES OLYMPIQUES",
+        "id": "RaZbF3wrNQk"
+      },
+      {
+        "artist": "The Bug Club",
+        "title": "Lonsdale Slipons",
+        "id": "n6ckxeEAvSQ"
+      },
+      {
+        "artist": "Fake Fruit",
+        "title": "Más O Menos",
+        "id": "_IQVH66Fy_Q"
+      },
+      {
+        "artist": "Thee Oh Sees",
+        "title": "Earthling",
+        "id": "Qcs9zghbgpg"
+      },
+      {
+        "artist": "Bacchae",
+        "title": "Dead Man",
+        "id": "ElfdHu6t4M8"
+      },
+      {
+        "artist": "Wu-Lu",
+        "title": "Daylight Song",
+        "id": "7mBtwweTkho"
+      },
+      {
+        "artist": "Honeyglaze",
+        "title": "Cold Caller",
+        "id": "P0AP4IbPkAE"
+      },
+      {
+        "artist": "Galaxie 500",
+        "title": "Shout You Down",
+        "id": "9LBiEIQO9T8"
+      },
+      {
+        "artist": "William Doyle",
+        "title": "Now In Motion",
+        "id": "cltEOZmObLY"
+      },
+      {
+        "artist": "King Gizzard & The Lizard Wizard",
+        "title": "Le Risque",
+        "id": "Ik-gBAlEbQY"
+      },
+      {
+        "artist": "Ginger Root",
+        "title": "All Night",
+        "id": "8E6d9cES1jE"
+      },
+      {
+        "artist": "Fcukers",
+        "title": "Homie Don't Shake",
+        "id": "bInHFf4NFbY"
+      },
+      {
+        "artist": "Heems",
+        "title": "DAME",
+        "id": "qkU_UFDeDr4"
+      },
+      {
+        "artist": "Action Bronson",
+        "title": "SALVAJE",
+        "id": "mI-_tc5PXA4"
+      },
+      {
+        "artist": "Navy Blue",
+        "title": "Low Threshold",
+        "id": "M2O1ikOfrf4"
+      },
+      {
+        "artist": "Meridian Brothers",
+        "title": "Sé que estoy cambiando",
+        "id": "2MhCZEoE5Dg"
+      }
+    ],
+    "featured": [
+      {
+        "artist": "Robber Robber",
+        "id": "SFWsQMos90w"
+      },
+      {
+        "artist": "Font",
+        "id": "Xtm3XjcqVhQ"
+      },
+      {
+        "artist": "DVTR",
+        "id": "RaZbF3wrNQk"
+      },
+      {
+        "artist": "The Bug Club",
+        "id": "n6ckxeEAvSQ"
+      },
+      {
+        "artist": "Fake Fruit",
+        "id": "_IQVH66Fy_Q"
+      }
+    ]
+  },
   "June 2024": {
     "id": "PLn_YXwwHtJ61O97ERYUCOWFFfXhRIVDlg",
     "title": "June 2024",
