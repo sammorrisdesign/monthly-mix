@@ -1,4 +1,124 @@
 {
+  "November 2024": {
+    "id": "PLn_YXwwHtJ60Vk3jLYfQR9sdtjbWC7bbZ",
+    "title": "November 2024",
+    "month": "November",
+    "year": "2024",
+    "description": "",
+    "thumbnail": "https://i.ytimg.com/vi/PS9Bc_GQBEs/mqdefault.jpg",
+    "cover": "https://i.ytimg.com/vi/PS9Bc_GQBEs/maxresdefault.jpg",
+    "etag": "_7vVNMqZ3X7UZbSzIOXmR_QfBaI",
+    "spotify": "7sLhNLzT9iGNgh28bs6lkW",
+    "tracks": [
+      {
+        "artist": "Joshua Idehen",
+        "title": "Mum Does The Washing",
+        "id": "PS9Bc_GQBEs"
+      },
+      {
+        "artist": "Kendrick Lamar",
+        "title": "heart pt. 6",
+        "id": "m-PO1_fzxVM"
+      },
+      {
+        "artist": "MIKE",
+        "title": "You're the Only One Watching",
+        "id": "Boh8oeEWbNQ"
+      },
+      {
+        "artist": "Flying Lotus",
+        "title": "Let Me Cook (feat. Dawn Richard)",
+        "id": "_gNkftpGybU"
+      },
+      {
+        "artist": "Everything Is Recorded",
+        "title": "Losing You (feat. Sampha, Laura Groves, Jah Wobble & Yazz Ahmed)",
+        "id": "dtcxPNqb-S4"
+      },
+      {
+        "artist": "Fort Romeau & Gold Panda",
+        "title": "Stay Here (Studio Barnhus)",
+        "id": "rjoxaLTW6sE"
+      },
+      {
+        "artist": "Squid",
+        "title": "Crispy Skin",
+        "id": "CqM8hhwNsJA"
+      },
+      {
+        "artist": "King Gizzard & the Lizard Wizard",
+        "title": "Phantom Island",
+        "id": "1lR8VLt1Xlk"
+      },
+      {
+        "artist": "22º Halo",
+        "title": "Cobwebs",
+        "id": "6JsIfV15oh8"
+      },
+      {
+        "artist": "good morning",
+        "title": "sofeat. rock band",
+        "id": "kpptbWQ48Xw"
+      },
+      {
+        "artist": "Richard Dawson",
+        "title": "Boxing Day sales",
+        "id": "hwLXaYn9KKI"
+      },
+      {
+        "artist": "Moreish Idols",
+        "title": "Slouch",
+        "id": "Poq_Ym1pqlA"
+      },
+      {
+        "artist": "Snooper",
+        "title": "Relay",
+        "id": "bGyyBiuGR_Q"
+      },
+      {
+        "artist": "Owners Club",
+        "title": "Holiday At Home",
+        "id": "QoRqG1vKArg"
+      },
+      {
+        "artist": "Plover",
+        "title": "variety",
+        "id": "iNnz5w0Eor4"
+      },
+      {
+        "artist": "Why Bother?",
+        "title": "Down in the Vault",
+        "id": "Wxd2NFTTSGE"
+      },
+      {
+        "artist": "Tony Bontana",
+        "title": "For my pickney",
+        "id": "2XlGaJy5YTw"
+      }
+    ],
+    "featured": [
+      {
+        "artist": "Joshua Idehen",
+        "id": "PS9Bc_GQBEs"
+      },
+      {
+        "artist": "Kendrick Lamar",
+        "id": "m-PO1_fzxVM"
+      },
+      {
+        "artist": "MIKE",
+        "id": "Boh8oeEWbNQ"
+      },
+      {
+        "artist": "Flying Lotus",
+        "id": "_gNkftpGybU"
+      },
+      {
+        "artist": "Everything Is Recorded",
+        "id": "dtcxPNqb-S4"
+      }
+    ]
+  },
   "October 2024": {
     "id": "PLn_YXwwHtJ63eHWKH7w8BVc9yok8jV-I9",
     "title": "October 2024",
@@ -7,7 +127,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/_PK1OcXp1t8/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/_PK1OcXp1t8/maxresdefault.jpg",
-    "etag": "DLWzqjjL3rttY3hWVbOlVVGAusA",
+    "etag": "ZEIOqYdlmt6aT4QrU_I43waCZFw",
     "spotify": "4GuN1Nl6qPlDxlIaEzKK2O",
     "tracks": [
       {
@@ -172,7 +292,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/MTYSY_TQEgE/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/MTYSY_TQEgE/maxresdefault.jpg",
-    "etag": "gyRlIQC3wk51fKStr4wpZ5CD_sE",
+    "etag": "vmaM8gyWFaRj-pfmGaKo35N90-A",
     "spotify": "5t6BorY1dh7ONObXNd8unH",
     "tracks": [
       {
@@ -342,7 +462,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/A4EU_0vFzuU/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/A4EU_0vFzuU/maxresdefault.jpg",
-    "etag": "92kxBtX2GOTaMqGhFK6yW5Y3xJ0",
+    "etag": "TFDOFzTUqbtF1VyL6oUw7aV_P0c",
     "spotify": "2oCMRrBbqHrFecvVcdK5Qv",
     "tracks": [
       {
@@ -477,7 +597,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/SFWsQMos90w/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/SFWsQMos90w/maxresdefault.jpg",
-    "etag": "S8VMquACpk9ivsa9hW446TgqS7o",
+    "etag": "D5odzeTFrFhCAxh6zU_zFfmqBAs",
     "spotify": "4RbrFiMCt0TkzNXfo2a3gE",
     "tracks": [
       {
@@ -602,7 +722,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/F7-Ij6xqu5k/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/F7-Ij6xqu5k/sddefault.jpg",
-    "etag": "5zt7IoFoqWfN7s6LITCzuBUf5tw",
+    "etag": "VN4an02kshjjGISYD1HpMkiT-pI",
     "spotify": "7nKvl7ESkwqjaN5oXcCXrN",
     "tracks": [
       {
@@ -772,7 +892,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/PiOdGpR0TdU/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/PiOdGpR0TdU/maxresdefault.jpg",
-    "etag": "OSb1hCQAqyi7Ghsq9rsodFSnkjc",
+    "etag": "DHms66_QasnpbdXXLsNScmrUQXc",
     "spotify": "5KXQQUWnJdmg0ekclyEf28",
     "tracks": [
       {
@@ -922,7 +1042,7 @@
     "description": "For the first time ever Monthly Mix playlists will now be available on Spotify! In addition to April 2024's playlist, the entire nearly 10 year archive is on Spotify too!",
     "thumbnail": "https://i.ytimg.com/vi/yC0r8RCYyvY/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/yC0r8RCYyvY/maxresdefault.jpg",
-    "etag": "-wlc44qHS3uZoVxs_WE3LjqJcfw",
+    "etag": "QmJ_PmNYdaY_8WxRL_MZvLCjUcY",
     "spotify": "3zrN7X1WDxFunme78oDKeN",
     "tracks": [
       {
@@ -1112,7 +1232,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/bQtEJX_bLds/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/bQtEJX_bLds/maxresdefault.jpg",
-    "etag": "yYu_AQToE9jMP0bVdjTigbUf0E0",
+    "etag": "nhty4fsDiGJeA72LnDGQlblj_r0",
     "spotify": "6kuIL4nGkX4wjbaE2aZ4GK",
     "tracks": [
       {
@@ -1287,7 +1407,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/-YDoLuPm6Qk/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/-YDoLuPm6Qk/maxresdefault.jpg",
-    "etag": "W4tcDeJzggTtqPgoBgaNBWxGc-Q",
+    "etag": "k1dZqvHSZjET6CoE32nV5RhjuYI",
     "spotify": "3xPj0FVlk4jDTX0hcJUuh5",
     "tracks": [
       {
@@ -1422,7 +1542,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/HmT5SrNNEZM/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/HmT5SrNNEZM/maxresdefault.jpg",
-    "etag": "l2sHEmD-9WrNgFZtqNhmtgdwD8I",
+    "etag": "HnFysLLvKoX6oxs42Ea-KuVrULw",
     "spotify": "2BuZLUGnhm492jMw2lcnWK",
     "tracks": [
       {
@@ -1602,7 +1722,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/f55OZjMQHVk/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/f55OZjMQHVk/maxresdefault.jpg",
-    "etag": "uh6WTrF7mK5iaTFunMloqPNaBfo",
+    "etag": "Y_G6dTfixx6Vi_yGSyOtbW9l50M",
     "spotify": "4pqNvRfdxLZ1jvNwp9R9kW",
     "tracks": [
       {
@@ -1677,7 +1797,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/JL9VYE9IWLc/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/JL9VYE9IWLc/maxresdefault.jpg",
-    "etag": "r6p2U_N1eE3Q2hICosPwUgi_Bio",
+    "etag": "A5bdFCgyiE-ODbFIKm-9IbbC--8",
     "spotify": "5BUC3ygYsgZ9BC9itKOgyI",
     "tracks": [
       {
@@ -1782,7 +1902,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/zZyx6THIoz8/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/zZyx6THIoz8/maxresdefault.jpg",
-    "etag": "plH1SwMSmv78rABGF8XGJxXGVYk",
+    "etag": "WReUOS8WZxhPYLKzIW1Zem9wemg",
     "spotify": "5x40R3rAOUkeme39F7ElTn",
     "tracks": [
       {
@@ -1902,7 +2022,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/i1U0o0cuIkE/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/i1U0o0cuIkE/maxresdefault.jpg",
-    "etag": "rejlrzGk7INnuIF_FnMO9kIoD1I",
+    "etag": "ww1hLPkIoqYF0w7L8KBB-DDNses",
     "spotify": "1EyoRkLJV5pcMFaP1ULJZA",
     "tracks": [
       {
@@ -1926,8 +2046,7 @@
         "id": "1Fb2PETOKRg"
       },
       {
-        "artist": "Your Old Droog",
-        "title": "Waves Crashing (prod. by Madlib)",
+        "artist": "Deleted video",
         "id": "VJSXKpvfOTc"
       },
       {
@@ -2029,7 +2148,7 @@
         "id": "1Fb2PETOKRg"
       },
       {
-        "artist": "Your Old Droog",
+        "artist": "Deleted video",
         "id": "VJSXKpvfOTc"
       }
     ]
@@ -2042,7 +2161,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/rpsKDDGcDpw/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/rpsKDDGcDpw/maxresdefault.jpg",
-    "etag": "o4VqZoIbnV203XwM5bS4ENYKnNE",
+    "etag": "2rE4LpF6H4H13_Y_nWHVJLeH7RM",
     "spotify": "6Mc6iziIR1hgUXa9A5fk4G",
     "tracks": [
       {
@@ -2162,7 +2281,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/vgKL0eJXm88/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/vgKL0eJXm88/maxresdefault.jpg",
-    "etag": "r3cYMkG6gp2rJz70oXVffyLla-M",
+    "etag": "xfgBXOi29Ebxgre9xw2Q8hgyoFQ",
     "spotify": "58KKUgzutsu05pAMee179p",
     "tracks": [
       {
@@ -2272,7 +2391,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/8tdPKlYTWn4/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/8tdPKlYTWn4/maxresdefault.jpg",
-    "etag": "1kCx3l_Z0sxqi7X5TJ6mvnzzrGE",
+    "etag": "2_zKpDBdbd73VbAkemkU_PU93LU",
     "spotify": "1T7BV3kDEnzrS4KoGQXLHp",
     "tracks": [
       {
@@ -2382,7 +2501,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/tuhe1CpHRxY/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/tuhe1CpHRxY/maxresdefault.jpg",
-    "etag": "x_9grY6P2gnL6hh53D2sBi5uv2w",
+    "etag": "AqMhJnC0JsoA7fjopOWTztK9lLg",
     "spotify": "6KECwUYpLWcNzfK04186sX",
     "tracks": [
       {
@@ -2497,7 +2616,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/ImsmM3NGVVM/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/ImsmM3NGVVM/maxresdefault.jpg",
-    "etag": "UukU-nCWkU1E-to53biCZwZ7kiU",
+    "etag": "sO2xYSHEWmf6d20w6X3CRCgJs44",
     "spotify": "6EyQgcXV7TDg1QtZj4mMhU",
     "tracks": [
       {
@@ -2622,7 +2741,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/2TVXi_9Bvlg/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/2TVXi_9Bvlg/maxresdefault.jpg",
-    "etag": "26MS73QSW1VswiYGRutyNF_XFL0",
+    "etag": "im2ul4bhVzuAinYzxFcms60J_qM",
     "spotify": "46M6RrbnDxtlq8nLY05nmU",
     "tracks": [
       {
@@ -2752,7 +2871,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/KN4ZIrNES9Y/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/KN4ZIrNES9Y/maxresdefault.jpg",
-    "etag": "-R1zYdUUjBafCtaGD_G6sBkva5U",
+    "etag": "PAbTu8SQuKLo3Muirkvkttlc8fg",
     "spotify": "6UQy7mEWQ79ZQRbjfZ7EUG",
     "tracks": [
       {
@@ -2872,7 +2991,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/IgLf2TyuYXc/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/IgLf2TyuYXc/maxresdefault.jpg",
-    "etag": "mmukfN3SmQvw5jNkZcwEkzzxV0c",
+    "etag": "ZCgI7W9NbgSSeAe4ic1HK48peMI",
     "spotify": "2SF6fs0kKsJJbwDYwOTTPI",
     "tracks": [
       {
@@ -2992,7 +3111,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/IzDBhKuTprc/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/IzDBhKuTprc/maxresdefault.jpg",
-    "etag": "ljIt2NB8Ai0pJoqkKO0zyOgBpOE",
+    "etag": "ogkrzBbk7DFRRrl-oIYdqivjxp4",
     "spotify": "2odwTeHx1jP0x5B8qTeA8D",
     "tracks": [
       {
@@ -3067,7 +3186,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/32mooi0mqxc/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/32mooi0mqxc/maxresdefault.jpg",
-    "etag": "Ql_e-TqhnZ6Noyzl7KzeacNLKIM",
+    "etag": "34uy8cWQDA3PqvZNJdaWCEXX8l0",
     "spotify": "5gO7QD3zQJyRQUqHgYVypN",
     "tracks": [
       {
@@ -3187,7 +3306,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/kUg0abubR18/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/kUg0abubR18/maxresdefault.jpg",
-    "etag": "Pm2jrG702JmNLRjWjP3yyR8dHBs",
+    "etag": "YdJGiNTb2U1QF54ympUKeCzCKOA",
     "spotify": "58gKKwVfClVzTHwIEPsAit",
     "tracks": [
       {
@@ -3302,7 +3421,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/2litzsFCwkA/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/2litzsFCwkA/maxresdefault.jpg",
-    "etag": "vAKnSW1kQBLQXEXUZlUkvnot75g",
+    "etag": "8CXyUzTvIVKVVHseSk2ILsn39PU",
     "spotify": "61ESkTZqW2VYyIgRUjEe2w",
     "tracks": [
       {
@@ -3461,7 +3580,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/nFk20L7MrDw/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/nFk20L7MrDw/maxresdefault.jpg",
-    "etag": "pltcpcDINlv5Qihro_BJjHQ_kPA",
+    "etag": "oJZVP_V9I-RDdvpE46ahsijHKpo",
     "spotify": "5fQtHcHTujBwEsdy32FGap",
     "tracks": [
       {
@@ -3621,7 +3740,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/RC8u7RJe-TE/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/RC8u7RJe-TE/maxresdefault.jpg",
-    "etag": "fYmdOW2xfa7TAXPi9uHLHD2RrXA",
+    "etag": "H5pBKcuxJKUV-GXIPABOq7drAC0",
     "spotify": "6cJaY1WbdB58JTognLPt3b",
     "tracks": [
       {
@@ -3736,7 +3855,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/OHaQyv9Plv4/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/OHaQyv9Plv4/maxresdefault.jpg",
-    "etag": "Zs5QcOO2nqXGs_LVC1oQPCwxNFA",
+    "etag": "apIWHaITmhogp17xekAeerorFsc",
     "spotify": "5qUF0JPb2DJgV29pYjUyZU",
     "tracks": [
       {
@@ -3891,7 +4010,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/qPGJafOUrXc/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/qPGJafOUrXc/maxresdefault.jpg",
-    "etag": "adeXIJ8luK3KvKJ3entQiufiyc8",
+    "etag": "5QC9ZBrsDLpSdnTD9C1PQsKW6ow",
     "spotify": "6y5HxhRihD6S2kZOx5W0qe",
     "tracks": [
       {
@@ -4016,7 +4135,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/QaQosYoRSEU/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/QaQosYoRSEU/maxresdefault.jpg",
-    "etag": "84Q6taoX0W2CM5Tnwb6g--pCOBs",
+    "etag": "rKXB32byn-iLYsF4zWQghu9XbAM",
     "spotify": "5D9zRNGEJ9qf2359ophIJo",
     "tracks": [
       {
@@ -4126,7 +4245,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/muEyle9evDQ/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/muEyle9evDQ/maxresdefault.jpg",
-    "etag": "MzNPdU-EREk4QetHA0rP8z6Jwyw",
+    "etag": "tPZzc_bDWqTu5uygeurcQeymaZY",
     "spotify": "6et92EqxFhagIviLtmjqPK",
     "tracks": [
       {
@@ -4266,7 +4385,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/UxAbQ0IFgHA/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/UxAbQ0IFgHA/maxresdefault.jpg",
-    "etag": "dLxpwJHYrQ4R8iot1Jn2kZWo6Y4",
+    "etag": "UuJnNtw4ZhUwcZCuyipBB7Du1QE",
     "spotify": "20CGACAfFm7BuIRaCP8dYn",
     "tracks": [
       {
@@ -4416,7 +4535,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/yjC4qXiBRu4/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/yjC4qXiBRu4/maxresdefault.jpg",
-    "etag": "bmcafIbBvxSDllii9MTHc9lFz1o",
+    "etag": "Ubr8-5EZY_zrK4kaGiDuXm0xL14",
     "spotify": "4vqoXPY9Cd22t0BkMH7jpl",
     "tracks": [
       {
@@ -4566,7 +4685,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/al2I4-NMCk8/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/al2I4-NMCk8/maxresdefault.jpg",
-    "etag": "kUeBd6JeOa7yZYXVXVSqOvswqP8",
+    "etag": "tmMeu3u2NChp2g-1_hsf-02Q-tU",
     "spotify": "5vttOB8b1qocTWUbEX44bG",
     "tracks": [
       {
@@ -4690,7 +4809,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/hUl23t6Oago/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/hUl23t6Oago/maxresdefault.jpg",
-    "etag": "9ovxNyQP5nQoqUqlWsJj0KmTouI",
+    "etag": "HDN76eNcAn-SJUph-TvUqPCwBB0",
     "spotify": "51q5PuZatbQeWI4SXKvbtk",
     "tracks": [
       {
@@ -4805,7 +4924,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/X2k0Mnv1OOQ/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/X2k0Mnv1OOQ/maxresdefault.jpg",
-    "etag": "p8Ar576Pkvmel1doBpE2YfHMFrE",
+    "etag": "vvHoRJ4LA4qSAUQlW_ddKEqbLPw",
     "spotify": "76HOj259qyBesdgpdTirPl",
     "tracks": [
       {
@@ -4930,7 +5049,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/E604eZ81_YQ/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/E604eZ81_YQ/maxresdefault.jpg",
-    "etag": "8SJUesTKO89ybE7YO9bAKYRi-v4",
+    "etag": "woHsW9PZOCNa-AocQd_Sr4IrSQc",
     "spotify": "6tb1WHlPzJfhUC9vbgZ3rx",
     "tracks": [
       {
@@ -5035,7 +5154,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/agNRqAbTxtg/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/agNRqAbTxtg/maxresdefault.jpg",
-    "etag": "fAyxqPgr2DnvcrEA-ANeoDRuhDU",
+    "etag": "xoOZxgIoZnASQG7AOy-34GdYu68",
     "spotify": "5yNzUzt2AdflNb9ckfYkh1",
     "tracks": [
       {
@@ -5155,7 +5274,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/t1WgRREdH68/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/t1WgRREdH68/maxresdefault.jpg",
-    "etag": "RtGAzck_E4DSTKVqkm5FqM2YH9w",
+    "etag": "gTKfdIY_ZJZhlDtu66sq1Y6OC1s",
     "spotify": "4Cr7Gmwc21eUuLXfC5sA7y",
     "tracks": [
       {
@@ -5280,7 +5399,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/WGmLuI6n_tA/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/WGmLuI6n_tA/maxresdefault.jpg",
-    "etag": "AyoZs9IB1z5s1Nn_Gy0NOICb7Tc",
+    "etag": "f9rIjxEEE4bg2Crc_gQBhSHu_qc",
     "spotify": "3YKIsCgec10NoIYQcJyAKk",
     "tracks": [
       {
@@ -5400,7 +5519,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/zHGf6tmnLYE/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/zHGf6tmnLYE/maxresdefault.jpg",
-    "etag": "PfaKIEH3eiFMKZ1OQ9FVUx25mVQ",
+    "etag": "O9XcnF6u_1lATrFvZEZ5IJxg4OE",
     "spotify": "1sGOOvpriiiLNdyPdnteru",
     "tracks": [
       {
@@ -5525,7 +5644,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/h5A-Czk46I0/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/h5A-Czk46I0/maxresdefault.jpg",
-    "etag": "CacvM4l_4cfvOJHebpwu-qOJGxM",
+    "etag": "8vHjDeAztPJUZQjZyl2JBx86oeU",
     "spotify": "6F3MZhQmEuSyO87HKbeJUW",
     "tracks": [
       {
@@ -5680,7 +5799,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/2ZfcZEIo6Bw/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/2ZfcZEIo6Bw/maxresdefault.jpg",
-    "etag": "CCjoiAs1zhk1yDc-g3EjO24Xr3Q",
+    "etag": "6abusTH8nblj1Nv6t8GaIdK1I1U",
     "spotify": "6UVv6ELM451NJY0eXunnn3",
     "tracks": [
       {
@@ -5754,7 +5873,8 @@
         "id": "TCU49wasIw0"
       },
       {
-        "artist": "I Can't Go for That (No Can Do) (Nicolaas Remix)",
+        "artist": "Daryl Hall & John Oates",
+        "title": "I Can't Go for That (No Can Do) (Nicolaas Remix)",
         "id": "K1EpioNOdvU"
       }
     ],
@@ -5789,7 +5909,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/idOcUE2C0WA/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/idOcUE2C0WA/maxresdefault.jpg",
-    "etag": "YJ9078wdx8gRtgd5VzN_a-XXL5s",
+    "etag": "cWr1nmczPAR5ktplf0eWT11PTaY",
     "spotify": "4EuaewOW1t8KzOksK5Fcf8",
     "tracks": [
       {
@@ -5859,7 +5979,7 @@
       },
       {
         "artist": "Stereolab",
-        "title": "'Household Names'",
+        "title": "Household Names",
         "id": "q_zurDiCA1E"
       },
       {
@@ -5904,7 +6024,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/2hcG6UgTHiU/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/2hcG6UgTHiU/maxresdefault.jpg",
-    "etag": "0im1fYoMwc1rH4qVF6G3sc6_WMs",
+    "etag": "xDrBQiCBfIHehgmNoHX_4FCSqgU",
     "spotify": "5BVYFgoJzb1z1AUE4LW3SO",
     "tracks": [
       {
@@ -6004,7 +6124,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/0dVZKosGgUo/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/0dVZKosGgUo/maxresdefault.jpg",
-    "etag": "6iu8U7TtVeVZ8MyJPYHTNFQg8WY",
+    "etag": "4MgrRNxWmkCi8HwEd2a95FX32iY",
     "spotify": "5QCnzF3Kfs8orHLFNOvDdl",
     "tracks": [
       {
@@ -6119,7 +6239,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/O9yivp5zyjo/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/O9yivp5zyjo/maxresdefault.jpg",
-    "etag": "7JcZH9mcPeuEascaf49L5eVwEYU",
+    "etag": "HeS5mMEfsGfShqvRSISeF9XGCBo",
     "spotify": "7gYOoAy3O0gl7Qk8nYAPPQ",
     "tracks": [
       {
@@ -6214,7 +6334,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/EFaZ43nW28c/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/EFaZ43nW28c/sddefault.jpg",
-    "etag": "6-AIrba76ExJSbhibI0MOHDJbyM",
+    "etag": "gBZlhEATexf97LHcbTWJUoASryE",
     "spotify": "5TWwGklf1Xn8Eak61lzjvS",
     "tracks": [
       {
@@ -6299,7 +6419,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/nvUSwTO0j0k/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/nvUSwTO0j0k/maxresdefault.jpg",
-    "etag": "NgGu0KxnC7JTOVRvxb1NHsxmMes",
+    "etag": "GRJWFth9bEwXF8_eMW-NJuQD8cM",
     "spotify": "5zoENLAdv7LLGKmgHk0hlI",
     "tracks": [
       {
@@ -6409,7 +6529,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/sjr11lGEBg4/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/sjr11lGEBg4/maxresdefault.jpg",
-    "etag": "-uP4FLvHk4qPb2TC-Gnj9bfg3F4",
+    "etag": "n8UiZAx8-WrLVwZO5pggz7_U9M0",
     "spotify": "1JTuRtinezmIw5zobn9nVl",
     "tracks": [
       {
@@ -6524,7 +6644,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/xfLom4iv2GE/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/xfLom4iv2GE/maxresdefault.jpg",
-    "etag": "Zgq8wsZUZK6Ldbqi7Tgrjtqs0wU",
+    "etag": "VwuG_4RCq2SrUBQU_LNA08FUCjI",
     "spotify": "2y9aGLzFSX8AQ7SRzCO4W3",
     "tracks": [
       {
@@ -6649,7 +6769,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/i4b6SeuKI2E/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/i4b6SeuKI2E/maxresdefault.jpg",
-    "etag": "9LVr_uLRxQ1Xw0zFxq5lkYsrBuk",
+    "etag": "hOeJIhd60uk-z3Ay3qYtarZnlWQ",
     "spotify": "2lGlrqp7tWRM1K5hBeGNzh",
     "tracks": [
       {
@@ -6713,7 +6833,7 @@
         "id": "vlluWqSZ-CE"
       },
       {
-        "artist": "Sault",
+        "artist": "SAULT",
         "title": "Stop Dem",
         "id": "1yUMoZdw33E"
       },
@@ -6754,7 +6874,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/blJyX82m8iA/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/blJyX82m8iA/maxresdefault.jpg",
-    "etag": "qUJMStPfl28RoA_bVcw-osRXcbM",
+    "etag": "JtXwFoupSP5j27McJ-5jcU_qUJQ",
     "spotify": "19ecWYzr4dHJdy49nGSblk",
     "tracks": [
       {
@@ -6839,7 +6959,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/pfax9iO6j9I/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/pfax9iO6j9I/maxresdefault.jpg",
-    "etag": "utg3QBa6LhETEEKeJPntevhAVBE",
+    "etag": "dkf72shD0NntKKfIX0g2fAEwXzI",
     "spotify": "4rVhsSreg5KS8HTao0QbLt",
     "tracks": [
       {
@@ -6944,7 +7064,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/UGQ1UAX0aYo/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/UGQ1UAX0aYo/maxresdefault.jpg",
-    "etag": "nEEI7I1AT5ssW4ykwd4mBhMMOrU",
+    "etag": "C4ACRCs6BDjpgKNjF7T7GOChKyg",
     "spotify": "5fyNob0TGC9NY0HaVPVq43",
     "tracks": [
       {
@@ -7079,7 +7199,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/YP3C9c8nmlI/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/YP3C9c8nmlI/maxresdefault.jpg",
-    "etag": "XCF0n2ouf8Lgv5wVb6X89zm4iW8",
+    "etag": "8LKyMHG0liDDwBDYqNjDCmg4DKA",
     "spotify": "1UOyyBxIGa11FFNDQO20Mq",
     "tracks": [
       {
@@ -7184,7 +7304,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/utCjuKDXQsE/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/utCjuKDXQsE/maxresdefault.jpg",
-    "etag": "Zk0WzZzYMZ_Yn5NdnwJhPJKbgE0",
+    "etag": "7yips1QJGemuyriVdJKcyFR8uG0",
     "spotify": "3rNQLHtueSTsQHcDwM4C2j",
     "tracks": [
       {
@@ -7274,7 +7394,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/Uazlt4CCr7o/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/Uazlt4CCr7o/maxresdefault.jpg",
-    "etag": "S5yIgkx5QHZluND4gUABgQVDotM",
+    "etag": "H8_RhB75zOWPLO3mxSC2arIsOyM",
     "spotify": "2PNkIuRai2Yko0S3a2CxGw",
     "tracks": [
       {
@@ -7359,7 +7479,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/-jvkHxmeNXc/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/-jvkHxmeNXc/maxresdefault.jpg",
-    "etag": "4ZjlEPyWIRlvMnu4dcvfKc2PG5g",
+    "etag": "l-2R3C6uywRV9ZMLs0j7LVpMe9k",
     "spotify": "5xHFJesmnzgXQDIJ9gisEu",
     "tracks": [
       {
@@ -7383,8 +7503,8 @@
         "id": "fELIVcOuU-0"
       },
       {
-        "artist": "easy life",
-        "title": "sangria  feat. Arlo Parks",
+        "artist": "hard life",
+        "title": "sangria feat. Arlo Parks",
         "id": "FteLuLDSiIU"
       },
       {
@@ -7481,7 +7601,7 @@
         "id": "fELIVcOuU-0"
       },
       {
-        "artist": "easy life",
+        "artist": "hard life",
         "id": "FteLuLDSiIU"
       }
     ]
@@ -7494,7 +7614,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/RwD9S4onuQ0/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/RwD9S4onuQ0/maxresdefault.jpg",
-    "etag": "oeoYSVM9UZojLdQxn3w5NB7G3Eg",
+    "etag": "o1tsprpqr3rbLy4FsqJXgeoZdEk",
     "spotify": "6o4hj45cUSnz4kSElH4QzD",
     "tracks": [
       {
@@ -7619,7 +7739,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/1okqvhq7ZaI/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/1okqvhq7ZaI/maxresdefault.jpg",
-    "etag": "G48uLRhrxH_BgVImyMfgT79Nepg",
+    "etag": "cTiR2KgbXyqXk7SN-9aQzlWxmNY",
     "spotify": "30FMQMZ4KQ87N23G4lyy7l",
     "tracks": [
       {
@@ -7739,7 +7859,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/jhMk_wLm07E/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/jhMk_wLm07E/maxresdefault.jpg",
-    "etag": "2ZVrXZQPHKGdrhR55O-S1rFVVys",
+    "etag": "suceJAgS5RdeFIPsbg2Rmekd9V0",
     "spotify": "4uxj6wIFKgiIh3OcQblhdy",
     "tracks": [
       {
@@ -7879,7 +7999,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/sbd-GXcCHcU/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/sbd-GXcCHcU/maxresdefault.jpg",
-    "etag": "qxrjmfLRu73dRtjjdw17EjKu-8o",
+    "etag": "TFt2Jxq_g2Zg9n3xspqI3jpiRW0",
     "spotify": "4QjasPyXrlnHoIHDRZT1mU",
     "tracks": [
       {
@@ -7994,7 +8114,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/HcO-NPtj5BI/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/HcO-NPtj5BI/maxresdefault.jpg",
-    "etag": "4Vsyw0nUa23QRBPMCAJ0yzb5gu4",
+    "etag": "OOKqt98YMRI1gMleajFeftKtOs0",
     "spotify": "1Tfqle79M1Oh4GEout2fvM",
     "tracks": [
       {
@@ -8129,7 +8249,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/WZsNnuaUSNs/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/WZsNnuaUSNs/maxresdefault.jpg",
-    "etag": "6YtRhzthJJHmDZLT7fXUxWW4R7Y",
+    "etag": "sHw48cSA7JnHxWxnfkga0BrvlFg",
     "spotify": "7jTQfzs10tCA4e3t7DLSlb",
     "tracks": [
       {
@@ -8259,7 +8379,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/7Jj83FOlBF8/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/7Jj83FOlBF8/maxresdefault.jpg",
-    "etag": "WWlz2wDiDcEYaUM9uxhzSKNCfig",
+    "etag": "xvu0z2lfWmeJ_tUN3-HkUb_RE50",
     "spotify": "0Oh6OPDZzHdsW0390bTPLn",
     "tracks": [
       {
@@ -8389,7 +8509,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/0Q0t_dDKjyI/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/0Q0t_dDKjyI/maxresdefault.jpg",
-    "etag": "MPb_2x0HFNZQQayHcyHDNM0sFf4",
+    "etag": "ECEe6SVYg5MT-6eL-28dJAzijqc",
     "spotify": "3mFak4k43lscxRnqHwD6ug",
     "tracks": [
       {
@@ -8411,11 +8531,6 @@
         "artist": "Anderson .Paak",
         "title": "King James",
         "id": "8IDmv0MoxR8"
-      },
-      {
-        "artist": "Uranium Club",
-        "title": "Grease Monkey",
-        "id": "Y7S-i-CYS1o"
       },
       {
         "artist": "Sports Team",
@@ -8501,8 +8616,8 @@
         "id": "8IDmv0MoxR8"
       },
       {
-        "artist": "Uranium Club",
-        "id": "Y7S-i-CYS1o"
+        "artist": "Sports Team",
+        "id": "1kVfxQCvcUY"
       }
     ]
   },
@@ -8514,7 +8629,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/tm6x0q2INSs/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/tm6x0q2INSs/maxresdefault.jpg",
-    "etag": "NM8lcqQXuWaFNdQ2Sp7ZImGFNIE",
+    "etag": "ay64YInPyHmXtBTd1LJiyFmi7iw",
     "spotify": "1IqH1II0w2YU0bBSw9pJph",
     "tracks": [
       {
@@ -8624,7 +8739,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/coR59SSPWv8/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/coR59SSPWv8/maxresdefault.jpg",
-    "etag": "PMDQS0QgBC0veJYFQHyZfhgNZaU",
+    "etag": "2E0VnvrAXyu_UVSyneVLaDEtQMA",
     "spotify": "46mj203ACKlyYyqZllX9zR",
     "tracks": [
       {
@@ -8739,7 +8854,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/VaTvWwlou9o/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/VaTvWwlou9o/maxresdefault.jpg",
-    "etag": "fpk9xBPRQTZ-1ZgjduIvuerB8kI",
+    "etag": "wOzHQ0aY47mECHQQ-3xkvmYW9ko",
     "spotify": "4dnC7WL5sVXD4769CU8Jjm",
     "tracks": [
       {
@@ -8819,7 +8934,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/zG2TgCuMcjM/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/zG2TgCuMcjM/maxresdefault.jpg",
-    "etag": "MR9z4qL0TCa1Dj80M_T0RZu52n0",
+    "etag": "MhfriK4Z2vXEWWXPnXH6wnNm5jo",
     "spotify": "1ink5mQ9oDadpfGQdA7qrf",
     "tracks": [
       {
@@ -8954,7 +9069,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/u749Hi0gDVM/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/u749Hi0gDVM/maxresdefault.jpg",
-    "etag": "yY0q4wC9Lcm5xH5czfDA_EG1sIg",
+    "etag": "iQvncHXyjBvNCNs52jQfsN5Kzw8",
     "spotify": "4iYE2VQtScPyWnC6hJRxLV",
     "tracks": [
       {
@@ -9049,7 +9164,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/Edthfw5Pbxk/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/Edthfw5Pbxk/maxresdefault.jpg",
-    "etag": "nV51Rv3s6KSG9lHDHvGB8I-a12E",
+    "etag": "uO0xUJSBLmbi2u7Kqnwe2MoejuE",
     "spotify": "36lrnfGZxlQBrleCjaHFl8",
     "tracks": [
       {
@@ -9159,7 +9274,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/mVH_wxk9ZtE/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/mVH_wxk9ZtE/maxresdefault.jpg",
-    "etag": "Ju7dAkusgxVUEQpvrXlJdh5koeA",
+    "etag": "MOs9hpFpkJDpJxqKOtIs2mvZu04",
     "spotify": "2HLhWYWA4gyqwLtaT80PDB",
     "tracks": [
       {
@@ -9274,7 +9389,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/dwk0juwZJk8/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/dwk0juwZJk8/maxresdefault.jpg",
-    "etag": "ikJK-cmMem3HP5DvTWTW-80O6hU",
+    "etag": "gXQDepSucnEdSe0H-t-SNFHT-Qs",
     "spotify": "6vzLY89uXkZP37rCKmX5pD",
     "tracks": [
       {
@@ -9288,7 +9403,7 @@
         "id": "cWtPu_gFrvU"
       },
       {
-        "artist": "A$AP Ferg",
+        "artist": "FERG",
         "title": "Harlem Anthem",
         "id": "-W1mHtGk1QY"
       },
@@ -9368,7 +9483,7 @@
         "id": "cWtPu_gFrvU"
       },
       {
-        "artist": "A$AP Ferg",
+        "artist": "FERG",
         "id": "-W1mHtGk1QY"
       },
       {
@@ -9389,7 +9504,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/T7uoFlvbwhE/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/T7uoFlvbwhE/maxresdefault.jpg",
-    "etag": "YTRO1fhSghYGcY1_0cs-HGzmiak",
+    "etag": "wQDGCInD7v2sJl-2fVZeMTkVIfs",
     "spotify": "1e882adv4yo5b5Pa4U8Rfg",
     "tracks": [
       {
@@ -9479,7 +9594,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/VYOjWnS4cMY/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/VYOjWnS4cMY/maxresdefault.jpg",
-    "etag": "zoqsKzWG2rZl0fyLySdxefl17dc",
+    "etag": "Glrr4s_UvBOigzczNgL5_avb4hY",
     "spotify": "6UpUiaQYTcQ1u7s76I2MGA",
     "tracks": [
       {
@@ -9634,7 +9749,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/SIqvRzEIqIo/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/SIqvRzEIqIo/maxresdefault.jpg",
-    "etag": "BdbtfcrjVBMbdX0Q7fAyr4_ZpxU",
+    "etag": "2cNLb2p9SYjU5DSpkoFfArgVp7E",
     "spotify": "4iIkXGJYBCKx3mixwsvIHs",
     "tracks": [
       {
@@ -9759,7 +9874,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/_YiHjUXQpLM/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/_YiHjUXQpLM/maxresdefault.jpg",
-    "etag": "iIcFS2JTMbv3_u2UJH-uFYEQ5Dk",
+    "etag": "1gUeTvOofL6F_H06OXjwfLeaNAE",
     "spotify": "1gZwCdjrQqyPcQj8Oouw1d",
     "tracks": [
       {
@@ -9884,7 +9999,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/l-Bka7yNyKA/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/l-Bka7yNyKA/maxresdefault.jpg",
-    "etag": "WJgbjr2bNzwPn79jDGje4Pc-3V4",
+    "etag": "7fBAflJH3uNLGNmUxIR5ID2h0y4",
     "spotify": "0j2vemvohiu9LOeRwcqEyu",
     "tracks": [
       {
@@ -10034,7 +10149,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/9f5zD7ZSNpQ/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/9f5zD7ZSNpQ/maxresdefault.jpg",
-    "etag": "7otB5X1DWGa5Xu5Dt-WhE1vse-8",
+    "etag": "Dywv1qjJXaRhVNwVTWIRIWQtpHE",
     "spotify": "3C0Juiq6agL1OyHsRkFxpq",
     "tracks": [
       {
@@ -10174,7 +10289,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/66YZdqVEsnw/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/66YZdqVEsnw/maxresdefault.jpg",
-    "etag": "EqdQsfPHblfYUDiom0A74X6NW5E",
+    "etag": "g623UpikpvOfF2BTiyWHVWm2Q28",
     "spotify": "6HiwdgYC8fXZWtjQGAwkx6",
     "tracks": [
       {
@@ -10264,7 +10379,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/z_02_aBCu_g/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/z_02_aBCu_g/maxresdefault.jpg",
-    "etag": "oyEq1Mz-LuGQxnH5sZDdsPcrnTk",
+    "etag": "U04sqS4Yvoz9CNM2aCiCRnRYu-w",
     "spotify": "7d3PvBFA5kON6OddKStmk3",
     "tracks": [
       {
@@ -10404,7 +10519,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/zAadziqcQZw/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/zAadziqcQZw/maxresdefault.jpg",
-    "etag": "KJ3Zf5aBvwl_JMF5l6mL9WHSOUk",
+    "etag": "0W1ljFrVhV2vIbGvZAADmBGDr6g",
     "spotify": "1Yolr49frrgHSGHgztG8Zj",
     "tracks": [
       {
@@ -10524,7 +10639,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/K5-f1Bnltu8/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/K5-f1Bnltu8/maxresdefault.jpg",
-    "etag": "oJ04Ste1UULbqDqvvqf0FrTuIYE",
+    "etag": "lUQaUwtG__giFKJ1ZlOfPHJBzug",
     "spotify": "1zNczLi3yjk9JHDs4yEg27",
     "tracks": [
       {
@@ -10664,7 +10779,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/lqq3BtGrpU8/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/lqq3BtGrpU8/maxresdefault.jpg",
-    "etag": "GL82PLsFYoI0AzIh0WSiw1BeyUI",
+    "etag": "9vuKYkl-UwW6FU8XI51RAtKqL78",
     "spotify": "6woow6GXIPWGQLUrM01odr",
     "tracks": [
       {
@@ -10804,7 +10919,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/8WEAFbeOOMU/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/8WEAFbeOOMU/hqdefault.jpg",
-    "etag": "BfIYwNSIYgWNaRoiKSKSfMhig7I",
+    "etag": "dFgk3wTc1d-6hVsvEua18ZZ21-o",
     "spotify": "1opAG9g3V1fZ9Oh0rKDPIm",
     "tracks": [
       {
@@ -10929,7 +11044,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/7pLw0BDobFM/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/7pLw0BDobFM/maxresdefault.jpg",
-    "etag": "sepyCoftWMj24Ucj_5BCtsWYHO4",
+    "etag": "9cfIL28kg8AYQZBygthKj3v-e24",
     "spotify": "3pQXT4WbEB5IOvH1I0mSgP",
     "tracks": [
       {
@@ -11013,8 +11128,7 @@
         "id": "29f1FTjTcZs"
       },
       {
-        "artist": "milo",
-        "title": "magician (suture)",
+        "artist": "Deleted video",
         "id": "QC9u3vn1-Nc"
       },
       {
@@ -11054,7 +11168,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/ARfLBUgq7Iw/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/ARfLBUgq7Iw/maxresdefault.jpg",
-    "etag": "5ku10gTodKZaK-7SEE5ccOqrnPU",
+    "etag": "2rZQOrkyC7wvQH2Zped8fZy6O9k",
     "spotify": "4wWgjAGkhqmZTcGc3x2X45",
     "tracks": [
       {
@@ -11189,7 +11303,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/nzWc3ibJzNY/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/nzWc3ibJzNY/sddefault.jpg",
-    "etag": "4EB5L6S_Xtv2433eGzBZeDXWVXk",
+    "etag": "vK8rJCLS4EU4NL6bBHa8QEoRMmk",
     "spotify": "27iJ5k0G8ETa7CE24j9fFq",
     "tracks": [
       {
@@ -11329,7 +11443,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/tvTRZJ-4EyI/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/tvTRZJ-4EyI/maxresdefault.jpg",
-    "etag": "An4lRLNMqc-YgdPFy0-Z0bPbu68",
+    "etag": "VL-_Gn75ViKVNOOcCgfbIJi-rUI",
     "spotify": "0ChkNbQs9bffHOW0vFGbSE",
     "tracks": [
       {
@@ -11434,7 +11548,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/VUFr4SK1-l4/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/VUFr4SK1-l4/maxresdefault.jpg",
-    "etag": "_ltpIJrPzUUNle64uL6bY0PMcNw",
+    "etag": "IJ3UB0coYxZsXwQZy-oAiiz8KFw",
     "spotify": "7IHMH32Z0wryWfPfkrvhqJ",
     "tracks": [
       {
@@ -11519,7 +11633,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/utdidBGSw5s/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/utdidBGSw5s/maxresdefault.jpg",
-    "etag": "V1pYfcc0axBWtaYCDZF4X_ZPGf4",
+    "etag": "DdCYcC00Tdb_UmAm3eoDVDAXJf0",
     "spotify": "2Na1jHHwrcQehHgTwGd8rs",
     "tracks": [
       {
@@ -11589,7 +11703,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/vWaljXUiCaE/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/vWaljXUiCaE/maxresdefault.jpg",
-    "etag": "NFLdkkmUF0k9zg9zE14hqcvxzI4",
+    "etag": "Jn3xFbKYBDtHjHV3nl3Pyf078Yg",
     "spotify": "5DQAeBHfdoI7jmUKuhL5tf",
     "tracks": [
       {
@@ -11674,7 +11788,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/blz2IpGR1Sg/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/blz2IpGR1Sg/maxresdefault.jpg",
-    "etag": "mTPGHX5Rmtae-PgHUoGn5gwcBM0",
+    "etag": "9sgZzUhNd6GptwIm8Ls-DYs4eBs",
     "spotify": "44UHgkOFO5gkmOCRXVSPxu",
     "tracks": [
       {
@@ -11749,7 +11863,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/1b9n0Amr9RI/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/1b9n0Amr9RI/maxresdefault.jpg",
-    "etag": "_4VWW_LGGWzmmguAkHPtLDwIMus",
+    "etag": "uBbRCIb3DeIbwR52SiQXmnxXzkY",
     "spotify": "69qoF4BkrByLYNXLotnmsf",
     "tracks": [
       {
@@ -11844,7 +11958,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/srEchqeJi6g/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/srEchqeJi6g/maxresdefault.jpg",
-    "etag": "UToe23QNCONwsTBm9VPK2NX1cw4",
+    "etag": "3vmRmyvzMj6UKgV9xcWeVHLVWFU",
     "spotify": "7Be139veZERJKGDgzSs1gw",
     "tracks": [
       {
@@ -11919,7 +12033,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/zxNHJXpH9QM/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/zxNHJXpH9QM/maxresdefault.jpg",
-    "etag": "NZhozxfOwS8KiyfwqGp2yeG3bgo",
+    "etag": "6Mf0jA1XFRKagb57I6Zdfnw0-xo",
     "spotify": "1rS7NgKNWCj6qUV7yigY1e",
     "tracks": [
       {
@@ -12014,7 +12128,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/6Dhs7Cy475k/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/6Dhs7Cy475k/sddefault.jpg",
-    "etag": "SsmjsJjujjvQN1l02DAS2biMAJQ",
+    "etag": "Hw7k56lrpShtQuCtGG2xRDK8Eg0",
     "spotify": "1hoWXq0pT5OPY2zn8OeBCY",
     "tracks": [
       {
@@ -12119,7 +12233,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/hBZxEgHa9ng/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/hBZxEgHa9ng/maxresdefault.jpg",
-    "etag": "YkgSEMAVD-W76ZBFR6J7B8_lm6M",
+    "etag": "LJUGoHICWi_SWG4ZcTz0YsJquDE",
     "spotify": "0bn31LBkJCXboFvIr5u3Oe",
     "tracks": [
       {
@@ -12229,7 +12343,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/SN-9ZAr2ePQ/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/SN-9ZAr2ePQ/maxresdefault.jpg",
-    "etag": "LlgkJvKhybmW49NQhJU1VTpZrWc",
+    "etag": "Nka0G9_WMRaFjpQqTuoguElirMc",
     "spotify": "0kU3oHiE2lo23xrE0YuRIp",
     "tracks": [
       {
@@ -12359,7 +12473,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/nl6OW07A5q4/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/nl6OW07A5q4/maxresdefault.jpg",
-    "etag": "6MD4AjBbG7tlUDfSFRMhu0xRvX8",
+    "etag": "TIDvXznzWZhoVzMinWBo3Jot1qk",
     "spotify": "2MnGzY7FJtG7lhzfwR3OiJ",
     "tracks": [
       {
@@ -12444,7 +12558,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/WmGFgtH04z4/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/WmGFgtH04z4/maxresdefault.jpg",
-    "etag": "zGNFvMqghHp4PeUV691a1SC5X7k",
+    "etag": "fNBWpbHglPBM6Mm9EeeR1avfi3U",
     "spotify": "1lT1bl4RVTCQ0EUbuZZfa6",
     "tracks": [
       {
@@ -12534,7 +12648,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/QN7YA4FO7TY/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/QN7YA4FO7TY/sddefault.jpg",
-    "etag": "k46vLPY9BtrXLj2UJZ70HGPH_3o",
+    "etag": "x2iwdxWayz_gRednOtDGt39G3mc",
     "spotify": "5nXVIYsKekZLyk7DraS4B9",
     "tracks": [
       {
@@ -12654,7 +12768,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/RvuOGM3wA64/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/RvuOGM3wA64/maxresdefault.jpg",
-    "etag": "Kk4ehDO9HYHnqgHrI_f-clrj7tk",
+    "etag": "H_gkbYpJcRseiJuF7TbujEpAsK0",
     "spotify": "693Q4KAk1JSrpkbDsIhGYQ",
     "tracks": [
       {
@@ -12774,7 +12888,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/m3-2OmNU1PU/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/m3-2OmNU1PU/hqdefault.jpg",
-    "etag": "-rLG2e0grCQ_A042le7MgmSoAjI",
+    "etag": "SKXesH8syaeGyLUDI_h96cOFnuA",
     "spotify": "41GYzb48r6ra19lsVMZAY4",
     "tracks": [
       {
@@ -12864,7 +12978,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/9P2l0zAr3t8/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/9P2l0zAr3t8/maxresdefault.jpg",
-    "etag": "4YtLoo23Y2RKrwYUaXqTSWn3QFw",
+    "etag": "xJbj6rtWZSQk9oFOZTpl90VWsms",
     "spotify": "4AIJAZbHsADpjo9b4VbKbJ",
     "tracks": [
       {
@@ -12964,7 +13078,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/eedeXTWZUn8/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/eedeXTWZUn8/maxresdefault.jpg",
-    "etag": "HU-s2JExuyobJocrOFRQodmObw8",
+    "etag": "t6vzGIYImVjopjFRQqphs-2SqEQ",
     "spotify": "31hMgfBC4mqmr1LBFVeWvI",
     "tracks": [
       {
@@ -13059,7 +13173,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/Mn0PZygBHfc/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/Mn0PZygBHfc/maxresdefault.jpg",
-    "etag": "SEx9lJbUxEZ6XIcFORm_9hgXeoE",
+    "etag": "Q9BWU5-0VM-2H39YFgwY0R53jBw",
     "spotify": "1GIOgeZ83gMbWDiUM2DQw2",
     "tracks": [
       {
@@ -13169,7 +13283,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/YFic-xaLsPs/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/YFic-xaLsPs/sddefault.jpg",
-    "etag": "UM7DL_gK4VYVtj2JkE1hmhszP7Q",
+    "etag": "WiQnJyPy1TFEK3EVMucKhTFlXXE",
     "spotify": "764FA8t3v5OVz1glVYGAnA",
     "tracks": [
       {
@@ -13264,7 +13378,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/eb4UcIZMhw8/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/eb4UcIZMhw8/maxresdefault.jpg",
-    "etag": "GjyF-Cue9gDxRz1JcOGptc7lBas",
+    "etag": "S3A25T0MTugwB1qmzj_IobWBmOM",
     "spotify": "6Euywz0VM80Ug9kIIANmek",
     "tracks": [
       {
@@ -13359,7 +13473,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/GNCd_ERZvZM/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/GNCd_ERZvZM/maxresdefault.jpg",
-    "etag": "tEG8mudZmyj_JHrcGaRNFZaueRM",
+    "etag": "PcrTiTi0Q_37F_nhUOi6Vnz1LEA",
     "spotify": "3HOnTqmnFkG6lovzUpM0un",
     "tracks": [
       {
@@ -13429,7 +13543,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/RnGCoQe-hzU/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/RnGCoQe-hzU/maxresdefault.jpg",
-    "etag": "zKtXAFWmBugfB_XoHaEvgI8x_kQ",
+    "etag": "OZJpsw3zSbeFjaKyCSz011mR5C0",
     "spotify": "5j9iCWGBqoV6OSfcrEgg1Q",
     "tracks": [
       {
@@ -13529,7 +13643,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/OpD_74Vc3mA/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/OpD_74Vc3mA/maxresdefault.jpg",
-    "etag": "bYL0L8rVKdH0V7dsytnAybG5Yf0",
+    "etag": "SaCeHItvvv2sGoKCOFCcpbgj8ME",
     "spotify": "00tjKuJ2lXqp6xDKqNgHZN",
     "tracks": [
       {
@@ -13604,7 +13718,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/DU4FkiO_Bns/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/DU4FkiO_Bns/maxresdefault.jpg",
-    "etag": "POLwpcPdZhQvYAqVH9kTuBqm4xk",
+    "etag": "bxvXzm9jPc8reeQta302h16zMIc",
     "spotify": "5NhwbaikcxnkrYk6Ox2q3M",
     "tracks": [
       {
@@ -13699,7 +13813,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/cK5k7srWRO0/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/cK5k7srWRO0/maxresdefault.jpg",
-    "etag": "_OlGx1PN7uz_MMoHEo_JlbPNKkw",
+    "etag": "4EbO6kRZlqHWUfnhhaEHibOGTbc",
     "spotify": "5mT9wNd4Jq9WS1EC8SEUN0",
     "tracks": [
       {
@@ -13784,7 +13898,7 @@
     "description": "",
     "thumbnail": "https://i.ytimg.com/vi/DsY22N5D9UY/mqdefault.jpg",
     "cover": "https://i.ytimg.com/vi/DsY22N5D9UY/maxresdefault.jpg",
-    "etag": "TxoBab0zOHJCwWSUvk0NUKcARqk",
+    "etag": "dCioRI5bjxUstIGsUwBBwul_2wo",
     "spotify": "6LyyPeTCNx37J0xZ6mAwFT",
     "tracks": [
       {
