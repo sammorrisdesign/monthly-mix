@@ -1,4 +1,94 @@
 {
+  "December 2024": {
+    "id": "PLn_YXwwHtJ61zEp7P3O7cBtCYGJWV7YKi",
+    "title": "December 2024",
+    "month": "December",
+    "year": "2024",
+    "description": "",
+    "thumbnail": "https://i.ytimg.com/vi/ktvWiuDqUjA/mqdefault.jpg",
+    "cover": "https://i.ytimg.com/vi/ktvWiuDqUjA/maxresdefault.jpg",
+    "etag": "1Jce3gDT6wjtD6NbcH8nceyZF74",
+    "spotify": "3qRWNNTXWuUg25pL2kISm2",
+    "tracks": [
+      {
+        "artist": "Dorian Concept",
+        "title": "Cuchaule",
+        "id": "ktvWiuDqUjA"
+      },
+      {
+        "artist": "Church Chords",
+        "title": "Apophatic Melismatic",
+        "id": "nuHfqxNsoug"
+      },
+      {
+        "artist": "Greentea Peng",
+        "title": "One Foot",
+        "id": "IBDdK3tQG58"
+      },
+      {
+        "artist": "Little Simz",
+        "title": "Hello, Hi",
+        "id": "Q1QQufK51gk"
+      },
+      {
+        "artist": "miles cooke",
+        "title": "zugzwang",
+        "id": "oSibXoM1URU"
+      },
+      {
+        "artist": "Your Old Droog",
+        "title": "Suspect",
+        "id": "NPeqiCcBlw4"
+      },
+      {
+        "artist": "Angélica Garcia",
+        "title": "Gemini",
+        "id": "Ze_ZbtY7t3Y"
+      },
+      {
+        "artist": "Bananagun",
+        "title": "With the Night",
+        "id": "F2I3hWpBcHo"
+      },
+      {
+        "artist": "Courting",
+        "title": "Pause At You",
+        "id": "wHHpncMWtpo"
+      },
+      {
+        "artist": "Family Vision",
+        "title": "Pawn",
+        "id": "8-0T3XtTWUc"
+      },
+      {
+        "artist": "Rude Television",
+        "title": "Digital Frustration",
+        "id": "7LCtlzzyU_0"
+      }
+    ],
+    "featured": [
+      {
+        "artist": "Dorian Concept",
+        "id": "ktvWiuDqUjA"
+      },
+      {
+        "artist": "Church Chords",
+        "id": "nuHfqxNsoug"
+      },
+      {
+        "artist": "Greentea Peng",
+        "id": "IBDdK3tQG58"
+      },
+      {
+        "artist": "Little Simz",
+        "id": "Q1QQufK51gk"
+      },
+      {
+        "artist": "miles cooke",
+        "id": "oSibXoM1URU"
+      }
+    ]
+  },
   "November 2024": {
     "id": "PLn_YXwwHtJ60Vk3jLYfQR9sdtjbWC7bbZ",
     "title": "November 2024",
