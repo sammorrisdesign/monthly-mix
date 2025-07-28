@@ -86,8 +86,8 @@ const generateMainImage = async(playlist, image) => {
     return canvasData;
 }
 
-const generateSpotifyImage = async(playlist, baseImage) => {
-    console.log('generating spotify image for', playlist.title);
+const generateDSPImage = async(playlist, baseImage) => {
+    console.log('generating dsp image for', playlist.title);
 
     // setup canvas and draw the baseImage
     const canvi = canvas.createCanvas(720, 720);
@@ -135,7 +135,7 @@ const generateSpotifyImage = async(playlist, baseImage) => {
 
     // write image
     const buffer = canvi.toBuffer('image/jpeg', { quality: 0.8 });
-    fs.writeFileSync('./images/' + playlist.title.toLowerCase().replace(/ /g, '-') + '--spotify.jpeg', buffer);
+    fs.writeFileSync('./images/' + playlist.title.toLowerCase().replace(/ /g, '-') + '--dsp.jpeg', buffer);
 }
 
 module.exports = {
@@ -145,6 +145,6 @@ module.exports = {
         console.log(image);
 
         const mainImage = await generateMainImage(playlist, image);
-        await generateSpotifyImage(playlist, mainImage);
+        await generateDSPImage(playlist, mainImage);
     }
 }

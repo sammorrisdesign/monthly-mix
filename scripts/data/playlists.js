@@ -1,6 +1,5 @@
 const keys = require('../../config.json');
 const youtube = require('youtube-api');
-const spotify = require('./spotify');
 
 let pageToken = null;
 let playlists = new Array();
@@ -38,17 +37,6 @@ module.exports = {
 
         playlists.forEach(playlist => {
             playlistsObject[playlist.title] = playlist;
-        });
-
-        // add spotify IDs
-        const spotifyIDs = await spotify.getPlaylists();
-
-        playlists.forEach(playlist => {
-            if (spotifyIDs[playlist.title]) {
-                playlist.spotify = spotifyIDs[playlist.title];
-            } else {
-                console.log(`😢 Playlist for ${playlist.title} missing`)
-            }
         });
 
         return playlistsObject;
