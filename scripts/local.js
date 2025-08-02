@@ -1,6 +1,5 @@
 const watch = require('node-watch');
 const browserSync = require('browser-sync').create();
-const browserSyncReuseTab = require('browser-sync-reuse-tab')(browserSync);
 const html = require('./compile/html.js');
 const css = require('./compile/css.js');
 const assets = require('./compile/assets.js');
@@ -10,7 +9,7 @@ browserSync.init({
     server: './.build',
     port: 8000,
     open: false
-}, browserSyncReuseTab);
+});
 
 browserSync.watch('./.build/**/*.css', (event, file) => {
     if (event === 'change') {
