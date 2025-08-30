@@ -1,4 +1,123 @@
 {
+  "August 2025": {
+    "id": "PLn_YXwwHtJ60fnjYQU3owD2xa9uyahKQ4",
+    "title": "August 2025",
+    "month": "August",
+    "year": "2025",
+    "description": "",
+    "thumbnail": "https://i.ytimg.com/vi/q_nwxIIUVAw/mqdefault.jpg",
+    "cover": "https://i.ytimg.com/vi/q_nwxIIUVAw/maxresdefault.jpg",
+    "etag": "EX5TC2hrRsVSVTxua4XGF2baBsQ",
+    "tracks": [
+      {
+        "artist": "Earl Sweatshirt",
+        "title": "TOURMALINE",
+        "id": "q_nwxIIUVAw"
+      },
+      {
+        "artist": "Droogie Otis (Madlib & Your Old Droog)",
+        "title": "The Edge (feat. Killer Mike)",
+        "id": "PsY8NiyvMBY"
+      },
+      {
+        "artist": "Che Noir x The Other Guys",
+        "title": "Sugar Water",
+        "id": "Al9O0x9LEQ0"
+      },
+      {
+        "artist": "The New Eves",
+        "title": "Highway Man",
+        "id": "_lll0nATDNQ"
+      },
+      {
+        "artist": "Water From Your Eyes",
+        "title": "Nights in Armor",
+        "id": "uD3Zl2rDBJo"
+      },
+      {
+        "artist": "Home Counties",
+        "title": "New Best Thing",
+        "id": "rfkcY9KSLf0"
+      },
+      {
+        "artist": "Dragnet",
+        "title": "Alta Vista",
+        "id": "PnlWULySAMk"
+      },
+      {
+        "artist": "bar italia",
+        "title": "Fundraiser",
+        "id": "BO9Ed_rU-eY"
+      },
+      {
+        "artist": "Modern Nature",
+        "title": "Pharaoh",
+        "id": "vmOiTrIjJPM"
+      },
+      {
+        "artist": "Courting",
+        "title": "the twins (1969)",
+        "id": "Kh2D6MC5Ego"
+      },
+      {
+        "artist": "Stealing Sheep",
+        "title": "Take Me Back",
+        "id": "fRWItAZ-jig"
+      },
+      {
+        "artist": "Real Lies",
+        "title": "Let The Lips Fall Where They May",
+        "id": "zIncDuiEynY"
+      },
+      {
+        "artist": "Jane Inc.",
+        "title": "elastic",
+        "id": "dqzA3-AkDEU"
+      },
+      {
+        "artist": "KAYTRANADA",
+        "title": "SPACE INVADER",
+        "id": "wGAT0Yfd6HU"
+      },
+      {
+        "artist": "Tatyana",
+        "title": "Overdue",
+        "id": "f-lu-w1OogA"
+      },
+      {
+        "artist": "Zsela",
+        "title": "hbd lucy",
+        "id": "WlZca7Lk4AA"
+      },
+      {
+        "artist": "Silvana Estrada",
+        "title": "Dime",
+        "id": "yNszjqIDsIU"
+      }
+    ],
+    "featured": [
+      {
+        "artist": "Earl Sweatshirt",
+        "id": "q_nwxIIUVAw"
+      },
+      {
+        "artist": "Droogie Otis (Madlib & Your Old Droog)",
+        "id": "PsY8NiyvMBY"
+      },
+      {
+        "artist": "Che Noir x The Other Guys",
+        "id": "Al9O0x9LEQ0"
+      },
+      {
+        "artist": "The New Eves",
+        "id": "_lll0nATDNQ"
+      },
+      {
+        "artist": "Water From Your Eyes",
+        "id": "uD3Zl2rDBJo"
+      }
+    ]
+  },
   "July 2025": {
     "id": "PLn_YXwwHtJ603UebhJNIyoMg1YiFukcLW",
     "title": "July 2025",
