@@ -1,4 +1,123 @@
 {
+  "September 2025": {
+    "id": "PLn_YXwwHtJ62YVAJIfXJ6yKWxpnBn5tq1",
+    "title": "September 2025",
+    "month": "September",
+    "year": "2025",
+    "description": "",
+    "thumbnail": "https://i.ytimg.com/vi/5KMuRRZcXOY/mqdefault.jpg",
+    "cover": "https://i.ytimg.com/vi/5KMuRRZcXOY/maxresdefault.jpg",
+    "etag": "OJhUe_gHXjpI8AzYf5WIsMjuzDM",
+    "tracks": [
+      {
+        "artist": "Lawn",
+        "title": "Pressure",
+        "id": "5KMuRRZcXOY"
+      },
+      {
+        "artist": "Tigers & Flies",
+        "title": "Going to Bed",
+        "id": "VIO6JpfqDyg"
+      },
+      {
+        "artist": "No Peeling",
+        "title": "Pink Flamingos",
+        "id": "Yu1H2nFcxes"
+      },
+      {
+        "artist": "Billiam",
+        "title": "Planned Obsolescence",
+        "id": "JNBaxXuABFM"
+      },
+      {
+        "artist": "BARCLAY'S",
+        "title": "If It Kills Me",
+        "id": "CO7un6AsBSw"
+      },
+      {
+        "artist": "pôt-pot",
+        "title": "Sextape",
+        "id": "-dmeCKTVjzc"
+      },
+      {
+        "artist": "Prewn",
+        "title": "Big Tings (feat. Tune-Yards)",
+        "id": "GwO2RJBJSbo"
+      },
+      {
+        "artist": "JayWood",
+        "title": "BIG TINGS feat. Tune-Yards",
+        "id": "Oa8o-Q0Ju2s"
+      },
+      {
+        "artist": "Mick Jenkins",
+        "title": "Words I Should've said",
+        "id": "nt8YDKyow2M"
+      },
+      {
+        "artist": "Ana Frango Elétrico",
+        "title": "Não Tem Nada Não",
+        "id": "EDzEyL3uoyo"
+      },
+      {
+        "artist": "Helado Negro",
+        "title": "More",
+        "id": "Mas-n1fqPp0"
+      },
+      {
+        "artist": "Herbert & Momoko",
+        "title": "Babystar",
+        "id": "bbvyyZguf60"
+      },
+      {
+        "artist": "QUAD 90",
+        "title": "Le Blank",
+        "id": "aN9V5ZUUnb8"
+      },
+      {
+        "artist": "Why Horses?",
+        "title": "I've Got a Fever",
+        "id": "fQYiRkYGXWU"
+      },
+      {
+        "artist": "Pynch",
+        "title": "Post-Punk / New-Wave",
+        "id": "4MKxg-R3mIw"
+      },
+      {
+        "artist": "Peel Dream Magazine",
+        "id": "3BudTHsxVjA",
+        "title": "Venus In Nadir"
+      },
+      {
+        "artist": "Ava Luna",
+        "title": "Frame of Us",
+        "id": "XKLzsPnaq3o"
+      }
+    ],
+    "featured": [
+      {
+        "artist": "Lawn",
+        "id": "5KMuRRZcXOY"
+      },
+      {
+        "artist": "Tigers & Flies",
+        "id": "VIO6JpfqDyg"
+      },
+      {
+        "artist": "No Peeling",
+        "id": "Yu1H2nFcxes"
+      },
+      {
+        "artist": "Billiam",
+        "id": "JNBaxXuABFM"
+      },
+      {
+        "artist": "BARCLAY'S",
+        "id": "CO7un6AsBSw"
+      }
+    ]
+  },
   "August 2025": {
     "id": "PLn_YXwwHtJ60fnjYQU3owD2xa9uyahKQ4",
     "title": "August 2025",
