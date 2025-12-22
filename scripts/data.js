@@ -15,6 +15,14 @@ const featured = require('./data/featured.js');
     data = corrections.init(data);
     data = featured.init(data);
 
+    // Merge old archival data in from October 2025 and before
+    const archive = fs.readJSONSync("scripts/data/archive.json");
+
+    data = {
+      ...data,
+      ...archive
+    }
+
     fs.writeFileSync('data.json', JSON.stringify(data, null, 2));
 
     console.log('Data updated!');

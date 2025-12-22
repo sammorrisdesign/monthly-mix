@@ -45,7 +45,7 @@ module.exports = {
     fetchPlaylists: async function() {
         const response = await youtube.playlists.list({
             part: 'snippet, id',
-            channelId: 'UC5FQqBXXSxtwgJ4EIT1Ld1w',
+            channelId: 'UCqRt52twjSD1h_ZiLgIaQCg',
             maxResults: 50,
             pageToken: pageToken
         });
