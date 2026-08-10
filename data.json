@@ -1,4 +1,123 @@
 {
+  "July 2026": {
+    "id": "PLU88NWqtRxec",
+    "title": "July 2026",
+    "month": "July",
+    "year": "2026",
+    "description": "",
+    "thumbnail": "https://i.ytimg.com/vi/Z7tpcsIfmsc/mqdefault.jpg",
+    "cover": "https://i.ytimg.com/vi/Z7tpcsIfmsc/maxresdefault.jpg",
+    "etag": "bUTA8XKLTTEru2FUEQ9WOaI16ao",
+    "tracks": [
+      {
+        "artist": "The Heavenly Bodes",
+        "title": "National Express",
+        "id": "Z7tpcsIfmsc"
+      },
+      {
+        "artist": "Twisted Teens",
+        "title": "Business",
+        "id": "uCzQw7_oxHE"
+      },
+      {
+        "artist": "Mesh",
+        "title": "Hold On To",
+        "id": "5b4tCH3OMUA"
+      },
+      {
+        "artist": "Sharp Pins",
+        "title": "Saturday Sun",
+        "id": "wJjqPxq09BQ"
+      },
+      {
+        "artist": "Star Moles",
+        "title": "Real Magic",
+        "id": "5St2RGnBvk0"
+      },
+      {
+        "artist": "The Koreatown Oddity",
+        "title": "Ragu & Prego",
+        "id": "GB5BFFtvFX4"
+      },
+      {
+        "artist": "Open Mike Eagle x Kenny Segal",
+        "title": "She Swear I'm Colorblind (feat. billy woods)",
+        "id": "1bKdpZOC8CQ"
+      },
+      {
+        "artist": "CZARFACE Meets Frankie Pulitzer",
+        "title": "Brothers Grimm",
+        "id": "ssJrk2OJtZA"
+      },
+      {
+        "artist": "DVYN",
+        "title": "In My Face",
+        "id": "rerjRHzZHvo"
+      },
+      {
+        "artist": "earthsignchels",
+        "title": "Daddy Died",
+        "id": "1ZgSqHvK0-Y"
+      },
+      {
+        "artist": "Steve Lacy",
+        "title": "doom",
+        "id": "b7wODfsPcN8"
+      },
+      {
+        "artist": "Ginger Root",
+        "title": "Soarin'",
+        "id": "R7hcy44LFB4"
+      },
+      {
+        "artist": "Portraits Of Tracy",
+        "title": "Royal Courts (Great Misfortune)",
+        "id": "gufIZw4O2Po"
+      },
+      {
+        "artist": "Cornelius",
+        "title": "Twisting & Glistening",
+        "id": "w4c9NdIwz3M"
+      },
+      {
+        "artist": "STANDING ON THE CORNER",
+        "title": "Mr. Postman, wait!",
+        "id": "qz0oV8xxPPA"
+      },
+      {
+        "artist": "Jam City",
+        "title": "My World (feat. Aidan, Bawo & Ox Eye)",
+        "id": "Ywl2HQ6crdg"
+      },
+      {
+        "artist": "THAO",
+        "title": "Sick of the Times (feat. Tune-Yards and The Linda Lindas)",
+        "id": "zRsZDlT-cho"
+      }
+    ],
+    "featured": [
+      {
+        "artist": "The Heavenly Bodes",
+        "id": "Z7tpcsIfmsc"
+      },
+      {
+        "artist": "Twisted Teens",
+        "id": "uCzQw7_oxHE"
+      },
+      {
+        "artist": "Mesh",
+        "id": "5b4tCH3OMUA"
+      },
+      {
+        "artist": "Sharp Pins",
+        "id": "wJjqPxq09BQ"
+      },
+      {
+        "artist": "Star Moles",
+        "id": "5St2RGnBvk0"
+      }
+    ]
+  },
   "June 2026": {
     "id": "PLNbRCsqyxdxU",
     "title": "June 2026",
