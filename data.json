@@ -65,11 +65,6 @@
         "id": "obvH_72zl64"
       },
       {
-        "artist": "Liars",
-        "title": "Ice Pick, Kalamazoo",
-        "id": "V7r7cSssVN4"
-      },
-      {
         "artist": "Magi Merlin",
         "title": "POPSTAR",
         "id": "vqv8p14jo5w"
@@ -80,14 +75,9 @@
         "id": "hitfcCYCsxI"
       },
       {
-        "artist": "Busta Rhymes",
-        "title": "This Woman (feat. J Dilla and D'Angelo)",
-        "id": "A1uLUMMJgIo"
-      },
-      {
-        "artist": "Your Old Droog",
-        "title": "Brighton Beach (feat. Evidence)",
-        "id": "2X2NwdkboQE"
+        "artist": "Liars",
+        "title": "Ice Pick, Kalamazoo",
+        "id": "V7r7cSssVN4"
       },
       {
         "artist": "Anish Kumar",
@@ -98,6 +88,16 @@
         "artist": "Romare",
         "title": "The Need",
         "id": "lgqAOVJG7T0"
+      },
+      {
+        "artist": "Busta Rhymes",
+        "title": "This Woman (feat. J Dilla and D'Angelo)",
+        "id": "A1uLUMMJgIo"
+      },
+      {
+        "artist": "Your Old Droog",
+        "title": "Brighton Beach (feat. Evidence)",
+        "id": "2X2NwdkboQE"
       }
     ],
     "featured": [
