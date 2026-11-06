@@ -5,8 +5,6 @@ const data = require('../../data.json');
 
 module.exports = {
   init: function() {
-    const email = fs.readFileSync('./src/templates/email.html', 'utf8');
-    const emailTemplate = handlebars.compile(email);
     const html = fs.readFileSync('./src/templates/main.html', 'utf8');
     const template = handlebars.compile(html);
 
@@ -25,7 +23,6 @@ module.exports = {
       if (i === 0) {
         playlist.url = '';
         fs.writeFileSync('.build/index.html', template(playlist));
-        fs.writeFileSync('.build/email.html', emailTemplate(playlist));
       }
     });
 
