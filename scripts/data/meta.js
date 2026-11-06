@@ -4,11 +4,10 @@ const youtube = require('youtube-api');
 module.exports = {
   getTrackInfo: async function(snippet) {
     let title = snippet.title;
+    console.log(title);
       title = this.removeFrequentPhrases(title);
       title = this.splitTitle(title);
       title = this.dropQuotes(title);
-      title = this.formatFeature(title);
-      title = this.dropBrackets(title);
       title = title.filter(Boolean);
 
     if (title.length == 1) {
@@ -20,10 +19,17 @@ module.exports = {
     }
 
     title = title.filter(Boolean);
+    title = this.fixCapitalisation(title);
+    title = this.removeProducer(title);
+    title = this.formatFeature(title);
+    title = this.dropBrackets(title);
+    title = title.filter(Boolean);
 
     if (title.length < 2) {
       console.log('Missing meta for ', snippet.resourceId.videoId, ' – currently title reads as ', title);
     }
+
+    console.log(title);
 
     return {
       artist: title[0],
@@ -38,14 +44,19 @@ module.exports = {
       'Official Video',
       'Official Audio',
       'Official',
+      'official visualizer',
       'Single',
       'Visualiser',
       'Visualizer',
+      'Music video',
       'Lyric Video',
       'Lyrics',
       'Demo',
       'Audio Only',
-      'Audio'
+      'Audio',
+      '2026',
+      '2027',
+      '2028'
     ];
 
     phrasesToRemove = phrasesToRemove.map(phrase => `\\(${phrase}\\)|\\[${phrase}\\]|${phrase}`)
@@ -69,6 +80,10 @@ module.exports = {
       if (trackTitle[0] == "\"" && trackTitle[trackTitle.length - 1] == "\"") {
         trackTitle = trackTitle.replace(/\"/g, '');
       }
+
+      if (trackTitle[0] == "'" && trackTitle[trackTitle.length - 1] == "'") {
+        trackTitle = trackTitle.replace(/'/g, '');
+      }
     }
 
     title[1] = trackTitle;
@@ -76,16 +91,72 @@ module.exports = {
     return title;
   },
 
+  removeProducer: function(title) {
+    const match = title[1]?.match(/\(prod ([^)]*)\)/);
+
+    if (match) {
+      const producerText = match[1].trim();
+      title[1] = title[1].replace(`${producerText}`, "").replace(/\(prod ([^)]*)\)/, "").trim();
+    }
+
+    return title;
+  },
+
   dropBrackets: function(title) {
     if (title[1]) {
-      title[1] = title[1].replace(/ \( \)/g, '').trim();
+      title[1] = title[1].replace(/ \( \)/g, '').replace(/ \(  \)/g, '').trim();
+    }
+
+    return title;
+  },
+
+  fixCapitalisation: function(title) {
+    const fillerWords = [
+      "a",
+      "and",
+      "as",
+      "at",
+      "but",
+      "by",
+      "for",
+      "from",
+      "in",
+      "into",
+      "of",
+      "on",
+      "or",
+      "to"
+    ];
+
+    for (const i in title) {
+      // split into words
+      const words = title[i].split(" ").map((word, i) => {
+        // if we're dealing with a filler word, and we're not the first word, just return it
+        if (fillerWords.includes(word) && i !== 0) {
+          return word.toLowerCase();
+
+        // if not, let's just lowercase it, and capitalise the first letter
+        } else {
+          // if we have an actual word, do something
+          if (word.length > 1) {
+            // capitalise the second letter if the word starts with a bracket
+            const targetLetter = word[0] == "(" ? 1 : 0;
+            return (targetLetter == 1 ? word[0] : "") + word[targetLetter].toUpperCase() + word.slice(targetLetter + 1).toLowerCase();
+          } else {
+            return word;
+          }
+        }
+      })
+
+
+      title[i] = words.join(" ");
     }
 
     return title;
   },
 
   formatFeature: function(title) {
-    const trackTitle = title[1];
+    let trackTitle = title[1];
 
     if (trackTitle) {
       let altFeatureFormats = [
@@ -99,7 +170,16 @@ module.exports = {
 
       const regEx = new RegExp(altFeatureFormats.join('|'), 'gi');
 
-      title[1] = trackTitle.replace(regEx, 'feat. ').trim();
+      trackTitle = trackTitle.replace(regEx, 'feat. ').trim();
+
+      const hasBracketlessFeature = trackTitle.includes(" feat.");
+
+      if (hasBracketlessFeature) {
+        trackTitle = trackTitle.replace(" feat. ", " (feat. ");
+        trackTitle = `${trackTitle.trim()})`;
+      }
+
+      title[1] = trackTitle;
     }
 
     return title;
