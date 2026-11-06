@@ -4,7 +4,6 @@ const youtube = require('youtube-api');
 module.exports = {
   getTrackInfo: async function(snippet) {
     let title = snippet.title;
-    console.log(title);
       title = this.removeFrequentPhrases(title);
       title = this.splitTitle(title);
       title = this.dropQuotes(title);
@@ -28,8 +27,6 @@ module.exports = {
     if (title.length < 2) {
       console.log('Missing meta for ', snippet.resourceId.videoId, ' – currently title reads as ', title);
     }
-
-    console.log(title);
 
     return {
       artist: title[0],
