@@ -6,41 +6,41 @@ const assets = require('./compile/assets.js');
 const javascript = require('./compile/javascript.js');
 
 browserSync.init({
-    server: './.build',
-    port: 8000,
-    open: false
+  server: './.build',
+  port: 8000,
+  open: false
 });
 
 browserSync.watch('./.build/**/*.css', (event, file) => {
-    if (event === 'change') {
-        browserSync.reload('*.css');
-    }
+  if (event === 'change') {
+    browserSync.reload('*.css');
+  }
 });
 
 console.log('watching');
 
 watch('src', { recursive: true }, (event, file) => {
-    const fileExt = file.substring(file.lastIndexOf('.') + 1);
+  const fileExt = file.substring(file.lastIndexOf('.') + 1);
 
-    console.log(`A change has been made to ${file}`);
+  console.log(`A change has been made to ${file}`);
 
-    switch(fileExt) {
-        case 'html':
-            html.init();
-            break;
+  switch(fileExt) {
+    case 'html':
+      html.init();
+      break;
 
-        case 'sass':
-            css.init();
-            break;
+    case 'sass':
+      css.init();
+      break;
 
-        case 'js':
-            javascript.init();
-            break;
+    case 'js':
+      javascript.init();
+      break;
 
-        default:
-            html.init();
-            css.init();
-            javascript.init();
-            assets.init();
-    }
+    default:
+      html.init();
+      css.init();
+      javascript.init();
+      assets.init();
+  }
 })
